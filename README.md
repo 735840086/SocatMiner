@@ -1,0 +1,2 @@
+# SocatMiner
+SocatMiner是一套高性能分布式矿机集群管理与矿池组网系统
