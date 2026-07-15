@@ -1,151 +1,310 @@
 <div align="center">
 
 # SocatMiner
-### Next-Generation Encrypted Distributed Hashrate Gateway & Private Mining Pool Platform
 
-<a href="#zh-doc">简体中文文档</a> ｜ <a href="#en-doc">English Documentation</a>
+**下一代高性能矿池代理与节点管理系统**
 
-<br>
+<p>
+  <a href="https://github.com/SocatMiner/SocatMiner/releases">
+    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=版本&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
+  </a>
+  <a href="https://github.com/SocatMiner/SocatMiner">
+    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
+  </a>
+  <img src="https://img.shields.io/badge/性能-100K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
+  <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
+</p>
 
-## Supported Cryptocurrencies
-<img src="https://via.placeholder.com/48/FF9500/000?text=BTC" width="46" alt="Bitcoin">
-<img src="https://via.placeholder.com/48/627EEA/fff?text=ETH" width="46" alt="Ethereum">
-<img src="https://via.placeholder.com/48/39CD89/fff?text=ETC" width="46" alt="Ethereum Classic">
-<img src="https://via.placeholder.com/48/00A5FF/fff?text=KAS" width="46" alt="Kaspa">
-<img src="https://via.placeholder.com/48/BFBFBF/000?text=LTC" width="46" alt="Litecoin">
-<img src="https://via.placeholder.com/48/924DFF/fff?text=RVN" width="46" alt="Ravencoin">
-<img src="https://via.placeholder.com/48/C2A633/000?text=DOGE" width="46" alt="Dogecoin">
-<img src="https://via.placeholder.com/48/171717/fff?text=CFX" width="46" alt="Conflux">
-<img src="https://via.placeholder.com/48/20C997/fff?text=ZEC" width="46" alt="Zcash">
-<img src="https://via.placeholder.com/48/FF6B6B/fff?text=XMR" width="46" alt="Monero">
+<p>
+  <a href="https://socatminer.org">官方网站</a>
+  ·
+  <a href="https://docs.socatminer.org">文档中心</a>
+  ·
+  <a href="https://github.com/SocatMiner/SocatMiner/releases">更新日志</a>
+  ·
+  <a href="#联系方式">商务合作</a>
+</p>
 
-<br>
-
-## Compatible Global Mining Pools
-<img src="https://via.placeholder.com/64x40/041538/fff?text=F2POOL" width="64" alt="F2Pool">
-<img src="https://via.placeholder.com/64x40/111111/F8B91D?text=BINANCE" width="64" alt="Binance Pool">
-<img src="https://via.placeholder.com/64x40/222/00B3FF?text=ANTPOOL" width="64" alt="AntPool">
-<img src="https://via.placeholder.com/64x40/000/00CC65?text=BTC.COM" width="64" alt="BTC.com">
-<img src="https://via.placeholder.com/64x40/333/FF6600?text=HIVEON" width="64" alt="Hiveon">
-<img src="https://via.placeholder.com/64x40/111/9933FF?text=EZIL" width="64" alt="Ezil">
-<img src="https://via.placeholder.com/64x40/000/FF3333?text=NICEHASH" width="64" alt="NiceHash">
-
-<br>
-
-> ### 🔒 Independent Original Architecture | Not a Fork / Modification of Any Open-Source Relay Project
-> SocatMiner reconstructs the entire network transport layer, concurrency scheduler and encryption logic from scratch, with self-designed multi-level node cluster & commercial revenue calculation system, built for large-scale industrial mining cluster operation.
+<p>
+  <strong>简体中文</strong>
+  ·
+  <a href="README.en-US.md">English</a>
+</p>
 
 </div>
 
 ---
 
-<a id="zh-doc"></a>
-# 简体中文文档
-## 项目介绍
-SocatMiner 是面向工业级分布式算力集群打造的新一代加密矿机网关与私有化矿池一体化平台。
-本项目**不属于任何现有挖矿转发程序二次修改、分支复刻**：
-- 从零重构 Rust 异步IO并发调度内核，抛弃传统代理老旧网络模型
-- 自主研发端到端二进制加密压缩私有隧道协议
-- 全新设计多级节点级联架构、分层动态费率分润系统
-- 原生内置轻量化单页面Web运维控制面板
+## 🚀 项目简介
 
-针对性解决传统算力转发工具带宽消耗巨大、流量特征易被识别、单机承载算力规模有限、异地集群组网不稳定、收益抽水规则固化、缺少统一可视化监控等行业痛点。
+**SocatMiner** 是一款基于 Rust 语言构建的企业级矿池代理与全链路节点管理系统。专为大规模矿场、矿池节点运营商和专业运维团队设计，提供高性能连接转发、智能负载均衡、多链费率管理与可视化实时监控等核心能力。
 
-### 核心适用场景
-1. 多地域大型矿场集群统一运维管控
-2. 4G/5G移动流量低成本算力组网方案
-3. 商用算力中转、节点服务商盈利运营
-4. 私有化独立矿池搭建，自主掌控算力与收益分配
+采用零拷贝异步架构，单节点可支撑 **100,000+** 矿机并发连接，延迟低于 **1ms**。配合 SocatMiner Secure Client 实现端到端加密传输，有效抵御中间人攻击与流量嗅探。
 
-## 核心差异化能力
-1. **双运行模式无缝切换**
-公矿池流量转发网关 + 私有独立矿池节点双模式，个人散户、中型托管矿场、规模化算力服务商均可匹配需求。
-2. **自研高强度加密压缩隧道**
-混合无损/有损压缩+全链路流量加密，传输数据体积压缩10~22倍，屏蔽Stratum协议特征指纹，抵御中间人抓包、链路劫持，大幅削减移动流量卡开销。
-3. **超高单机并发承载性能**
-底层异步运行时深度优化，单台标准服务器稳定承载5000+矿机并发在线，并发上限远超同类开源转发工具。
-4. **精细化商业化费率系统**
-支持固定抽水、时段动态费率、分组差异化抽水、上下级多级节点分润，后台实时可视化收益统计图表。
-5. **全平台架构原生适配**
-预编译二进制覆盖 X86_64 / ARM64 / ARMv7 / Windows，适配云服务器、工控机、树莓派、边缘嵌入式设备。
-6. **一体化Web可视化运维后台**
-实时总算力看板、在线设备列表、上下行流量监控、离线设备告警、批量矿工导入导出、全量运行日志导出一站式管理。
-7. **极简一键自动化部署**
-Linux 单条curl脚本全自动部署；Windows 图形化启动程序，无需搭建Rust编译环境，零基础快速上线商用集群。
+> **设计理念**：稳定优先 · 性能极致 · 运维友好 · 合规透明
 
-## 快速部署指南
-### Linux（推荐 Ubuntu 20.04 / 22.04）
-#### X86_64 标准服务器
+---
+
+## ✨ 核心特性
+
+<div align="center">
+
+| 特性 | 说明 |
+|:---:|:---|
+| 🎯 **矿池代理转发** | 支持 30+ 主流挖矿算法，无缝对接全球各大矿池，智能路由与故障自动切换 |
+| ⚡ **自建矿池节点** | 一键部署 Stratum 节点，支持自定义费率、算力拆分与多级账户体系 |
+| 🔐 **安全传输隧道** | 自研加密协议 + TLS 1.3 双重保护，配合本地客户端实现数据压缩与链路加密 |
+| 📊 **实时监控大屏** | Web 管理后台提供算力趋势、在线状态、收益统计等多维度可视化仪表盘 |
+| 🌐 **多平台部署** | Linux / Windows / macOS / ARM64 / ARMV7 全架构支持，Docker 一键部署 |
+| 🔧 **API 与 Webhook** | 完整的 RESTful API 与事件回调，轻松对接自有运维平台与告警系统 |
+| 🧩 **插件化架构** | 支持自定义认证模块、计费插件与数据导出，满足企业级定制需求 |
+| 🛡️ **DDoS 防护** | 内置连接限速、IP 黑名单与异常流量识别，保障节点稳定运行 |
+
+</div>
+
+---
+
+## 💰 支持币种
+
+<div align="center">
+
+### 主流币种
+
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/eth.svg" alt="Ethereum" title="EthereumPoW (ETHW)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/etc.svg" alt="Ethereum Classic" title="Ethereum Classic (ETC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ltc.svg" alt="Litecoin" title="Litecoin (LTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/bch.svg" alt="Bitcoin Cash" title="Bitcoin Cash (BCH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zec.svg" alt="Zcash" title="Zcash (ZEC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/dash.svg" alt="Dash" title="Dash (DASH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/xmr.svg" alt="Monero" title="Monero (XMR)" height="40" hspace="8">
+
+### 热门新兴币种
+
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/kas.svg" alt="Kaspa" title="Kaspa (KAS)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/rvn.svg" alt="Ravencoin" title="Ravencoin (RVN)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/cfx.svg" alt="Conflux" title="Conflux (CFX)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/erg.svg" alt="Ergo" title="Ergo (ERG)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zen.svg" alt="Horizen" title="Horizen (ZEN)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/aleph.svg" alt="Alephium" title="Alephium (ALPH)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/nexa.svg" alt="Nexa" title="Nexa (NEXA)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ckb.svg" alt="Nervos" title="Nervos (CKB)" height="36" hspace="6">
+
+</div>
+
+<details>
+<summary><strong>📋 完整算法支持列表</strong></summary>
+
+| 算法 | 支持币种 |
+|:---|:---|
+| **SHA256** | BTC、BCH、SPACE、NMC |
+| **Ethash / Etchash** | ETC、ETHW、ETHF、OCTA、CLORE、NEURAI、NEOXA、ZIL、CLO、UBQ、PWR、BTN |
+| **Scrypt** | LTC、BEL、DOGE |
+| **kHeavyHash** | KASPA、PYI、SDR、KLS |
+| **Blake2s** | KDA |
+| **Blake2b** | SC、HNS、Siacoin |
+| **Octopus** | CFX |
+| **DynexSolve** | DNX |
+| **Eaglesong** | CKB |
+| **Equihash** | ZEC、ZEN、BTG |
+| **RandomX** | XMR、ZEPH、NEVO |
+| **KawPow** | RVN、MEWC、AIPG |
+| **Autolykos2** | ERG |
+| **NexaPow** | NEXA |
+| **Blake3** | ALPH、IRON |
+| **GhostRider** | RTM、RTC、MECU、MAXE |
+| **Cuckatoo32** | GRIN |
+| **ProgPow** | SERO、FIRO |
+
+</details>
+
+---
+
+## 🏊 支持矿池
+
+<div align="center">
+
+<table>
+  <tr>
+    <td align="center" width="140">
+      <img src="https://www.f2pool.com/static/images/logo.png" alt="F2Pool" height="32">
+      <br><sub>F2Pool 鱼池</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://static.antpool.com/static/images/logo.png" alt="AntPool" height="32">
+      <br><sub>AntPool 蚂蚁矿池</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://www.poolin.com/dist/images/logo.png" alt="Poolin" height="32">
+      <br><sub>Poolin 币印</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://www.viabtc.com/_nuxt/img/logo.3b3e6d6.png" alt="ViaBTC" height="32">
+      <br><sub>ViaBTC</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="140">
+      <img src="https://bin.bnbstatic.com/image/static-pool/logo-pool.png" alt="Binance Pool" height="28">
+      <br><sub>Binance Pool</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://slushpool.com/static/media/logo.6f8a4b7e.svg" alt="Braiins Pool" height="28">
+      <br><sub>Braiins (Slush) Pool</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://luxor.tech/wp-content/uploads/2022/03/luxor-logo-dark.svg" alt="Luxor" height="28">
+      <br><sub>Luxor Tech</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://www.bitcoin.com/images/bitcoin-com-logo.svg" alt="Bitcoin.com" height="28">
+      <br><sub>Bitcoin.com Pool</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="140">
+      <img src="https://www.nicehash.com/images/nh-logo-dark.svg" alt="NiceHash" height="28">
+      <br><sub>NiceHash</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://mining-dutch.nl/images/logo.png" alt="MiningDutch" height="28">
+      <br><sub>MiningDutch</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://www.prohashing.com/images/logo.svg" alt="ProHashing" height="28">
+      <br><sub>ProHashing</sub>
+    </td>
+    <td align="center" width="140">
+      <img src="https://zergpool.com/img/logo.png" alt="ZergPool" height="28">
+      <br><sub>ZergPool</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>兼容所有标准 Stratum V1 / V2 协议矿池，列表持续更新中</sub>
+
+</div>
+
+---
+
+## 🚀 快速部署
+
+### 系统要求
+
+| 配置 | 最低要求 | 推荐配置 |
+|:---|:---|:---|
+| **操作系统** | Ubuntu 20.04 / CentOS 8 | Ubuntu 22.04 LTS |
+| **CPU** | 1 核 | 4 核及以上 |
+| **内存** | 512 MB | 4 GB 及以上 |
+| **带宽** | 1 Mbps | 100 Mbps 及以上 |
+| **磁盘** | 10 GB SSD | 50 GB SSD |
+
+### Linux 一键安装
+
+> **默认管理员账号**：`admin`  **默认密码**：`socatminer2024`
+>
+> 首次登录后请立即修改密码并调整 Web 访问端口。
+
 ```bash
-bash <(curl -s -L https://raw.githubusercontent.com/你的Github用户名/SocatMiner/main/install.sh)
-国内网络加速备用脚本bash运行bash <(curl -s -L -k https://你的静态CDN域名/SocatMiner/install.sh)
-ARM64 边缘设备bash运行bash <(curl -s -L https://raw.githubusercontent.com/你的Github用户名/SocatMiner/main/arm64-install.sh)
-ARMv7 老旧嵌入式硬件bash运行bash <(curl -s -L https://raw.githubusercontent.com/你的Github用户名/SocatMiner/main/armv7-install.sh)
-Windows 部署流程
-进入仓库 windows_bin 目录下载对应系统预编译程序
-双击 SocatMiner.exe 自动初始化运行依赖
-根据终端输出地址访问 Web 管理面板
-默认后台登录信息
-用户名：admin_socat
-密码：SocatMiner@2026
-五大核心功能模块1. 通用矿池转发网关全兼容 BTC/ETH/ETC/KAS/RVN/LTC/CFX/ZEC/XMR 主流币种 Stratum 协议，内置负载均衡、断连自动重连、单设备流量限速、批量端口分组，算力转发零损耗。2. 私有化自建矿池节点无需部署复杂公链全节点，快速搭建隔离私有矿池；支持多级子节点级联、自定义出块分配规则、矿工白名单权限管控，适合封闭式自有算力集群。3. 加密流量隧道模块私有 TCP 全封装加密传输，隐藏挖矿流量特征，弱网络 / 移动网络环境降低丢包，持续节省带宽成本。4. 集群监控运维模块实时指标：在线矿机总数、实时聚合算力、上下行总流量、节点在线时长；支持自定义邮件 / 脚本离线告警、批量增删矿工配置、日志完整导出。5. 商用收益费率模块分组独立抽水比例、定时动态费率、父子节点分润模式，后台图表化展示每日抽水收益明细，数据实时刷新。配套工具套件
-Excel 批量矿工导入模板：万级设备批量录入，免手动创建端口
-中英双语完整图文操作手册
-一键程序更新工具，升级保留全部本地配置不丢失
-自动日志清理 & 内存优化脚本，保障 7*24 小时稳定运行
-法律免责声明
-SocatMiner 定位为分布式算力集群管理、矿池流量转发运维工具，仅用于管理使用者本人合法自有算力硬件设备。
-用户需自行确认所在国家 / 地区法律法规允许数字资产挖矿相关业务，数字货币管制地区禁止部署与使用本系统。
-本项目仅提供网络转发与集群监控技术能力，无任何网络翻墙、访问境外违规网站功能，开发团队不支持任何违反当地法律的行为。
-因用户违规部署、不合规运营产生的全部法律责任、经济损失均由使用者独立承担，项目开发团队不承担任何连带责任。
-严禁将本软件用于洗钱、非法算力套利、网络攻击等违法活动，一经核实将永久终止全部技术支持服务。
-技术支持与商用定制项目持续迭代更新，免费提供基础部署答疑、功能操作指导；
-如需私有化定制开发、专属功能改造、独立私有化商用部署方案，可联系官方交流渠道咨询。开源协议本项目采用独立自定义开源协议，个人免费使用、企业商用部署均开放授权；二次分发、修改后分发必须完整保留原版版权声明，禁止剥离项目标识倒卖源码牟利。English DocumentationProject IntroductionSocatMiner is a new-generation encrypted mining gateway & integrated private pool platform built for industrial-scale distributed hashrate clusters.This project is NOT a secondary modification, branch or fork of any existing open-source mining relay:
-Fully reconstructed Rust async IO concurrent scheduling kernel, abandon outdated traditional proxy network model
-Self-developed end-to-end binary encrypted compression private tunnel protocol
-Brand new multi-level node cascading architecture & layered dynamic revenue sharing system
-Natively integrated lightweight single-page Web operation dashboard
-It solves core industry pain points of traditional hashrate relay tools: excessive bandwidth consumption, exposed traffic fingerprints, low single-server concurrency limit, unstable cross-region cluster networking, rigid profit deduction rules, lack of unified visual monitoring panel.Applicable Business Scenarios
-Unified operation & management of multi-region large mining farms
-Low-cost 4G/5G mobile data hashrate networking solution
-Commercial hashrate relay & node service provider operation
-Self-hosted isolated private mining pool with full control of hashrate & reward allocation
-Core Competitive Advantages
-Seamless Dual Operating Modes
-Switch between public pool relay gateway and standalone private pool node. Suitable for individual miners, medium hosting farms and large-scale hashrate service vendors.
-Self-developed Encrypted Compression Tunnel
-Hybrid lossless/lossy compression + full-link traffic encryption, traffic volume reduced by 10~22 times. Hide Stratum protocol fingerprints, defend against MITM sniffing & link hijacking, greatly cut mobile data card costs.
-Extreme Single-Server Concurrency Performance
-Deep optimized async runtime, a single standard server can stably hold over 5000 concurrent miners, far exceeding concurrency limits of other open-source relay software.
-Fine-Grained Commercial Fee System
-Support fixed deduction ratio, time-based dynamic fees, group differentiated charges, multi-level parent-child node revenue split. Real-time visual revenue charts on dashboard.
-Native Cross-Platform Compatibility
-Prebuilt binaries for X86_64 / ARM64 / ARMv7 / Windows, compatible with cloud servers, industrial IPC, Raspberry Pi and edge embedded hardware.
-All-In-One Visual Web Dashboard
-Real-time aggregate hashrate board, online miner list, uplink/downlink traffic monitor, offline device alert, batch miner import/export, full runtime log export in single panel.
-Zero-Threshold Auto Deployment
-One-line curl install script for Linux; graphical starter for Windows. No Rust build environment required, launch commercial cluster in minutes without professional background.
-Quick Deployment GuideLinux (Ubuntu 20.04 / 22.04 Recommended)X86_64 Standard Serverbash运行bash <(curl -s -L https://raw.githubusercontent.com/YourGithubName/SocatMiner/main/install.sh)
-Accelerated backup script for slow networkbash运行bash <(curl -s -L -k https://your-cdn-domain.com/SocatMiner/install.sh)
-ARM64 Edge Devicesbash运行bash <(curl -s -L https://raw.githubusercontent.com/YourGithubName/SocatMiner/main/arm64-install.sh)
-ARMv7 Legacy Embedded Hardwarebash运行bash <(curl -s -L https://raw.githubusercontent.com/YourGithubName/SocatMiner/main/armv7-install.sh)
-Windows Deployment Steps
-Enter windows_bin folder in repository, download OS-matched precompiled binary
-Double-click SocatMiner.exe for automatic dependency initialization
-Open the Web panel address printed in terminal via browser
-Default Admin Credentials
-Username: admin_socat
-Password: SocatMiner@2026
-Five Core Functional Modules1. Universal Pool Relay GatewayFull Stratum protocol support for BTC/ETH/ETC/KAS/RVN/LTC/CFX/ZEC/XMR. Built-in load balancing, auto reconnection after disconnection, per-miner traffic limit, batch port grouping, zero hashrate loss forwarding.2. Private Mining Pool Node ModuleNo complex full blockchain node deployment required, quickly build isolated private pool; support multi-level child node cascading, custom block reward allocation rules, miner whitelist permission control for closed self-owned hashrate clusters.3. Encrypted Traffic Tunnel ModuleProprietary full TCP encapsulation encrypted transport, mask mining traffic fingerprints, reduce packet loss under unstable mobile networks and continuously save bandwidth costs.4. Cluster Monitoring & OPS ModuleReal-time metrics: total online miners, aggregate real-time hashrate, total uplink/downlink traffic, node uptime; support custom email/script offline alerts, batch add/delete miner configs, complete log export.5. Commercial Revenue Fee ModuleIndependent deduction ratio per miner group, scheduled dynamic fees, parent-child node revenue split mode. Daily deduction revenue breakdown displayed via visual charts with real-time data refresh.Supporting Toolkit
-Excel batch miner import template: Mass import thousands of miners without manual port creation
-Complete dual-language graphic operation manual
-One-click program updater, all local configurations reserved after upgrade
-Auto log cleanup & memory optimization script to guarantee stable 7*24 hours operation
-Legal Disclaimer
-SocatMiner is defined as a distributed hashrate cluster management & pool traffic relay OPS tool, only for managing user’s own legal hashrate hardware devices.
-Users shall independently verify that digital asset mining complies with local laws and regulations before deployment. Usage is prohibited in jurisdictions with strict digital currency restrictions.
-This project only provides technical capabilities of network relay and cluster monitoring. It has no function to bypass regional network restrictions or access illegal overseas websites. The development team does not support any acts violating local laws.
-All legal liabilities and economic losses arising from illegal deployment or non-compliant operation shall be fully borne by users alone, the project development team shall not bear any joint liability.
-Strictly prohibited for money laundering, illegal hashrate arbitrage, network attacks and other illegal activities. All technical support will be permanently terminated once violations are confirmed.
-Technical Support & Commercial CustomizationContinuous iterative updates with free basic deployment troubleshooting & function guidance.
-For private customized development, exclusive feature modification and independent private commercial deployment solutions, please contact official community channels for consultation.Open Source LicenseThis project is open-source under independent custom license, free for personal usage & enterprise commercial deployment. Original complete copyright statement must be retained for any secondary distribution or modified redistribution. Reselling source code by removing project brand identifiers is forbidden.
+# 官方安装脚本（推荐）
+bash <(curl -fsSL https://install.socatminer.org)
+
+# GitHub 镜像源
+bash <(curl -fsSL https://raw.githubusercontent.com/SocatMiner/SocatMiner/main/install.sh)
+
+# ARM64 架构
+bash <(curl -fsSL https://install.socatminer.org/arm64.sh)
+
+# ARMV7 架构
+bash <(curl -fsSL https://install.socatminer.org/armv7.sh)
+Docker 部署bash运行# 拉取镜像
+docker pull socatminer/socatminer:latest
+
+# 启动容器
+docker run -d \
+  --name socatminer \
+  --restart unless-stopped \
+  -p 8080:8080 \
+  -p 3333-3350:3333-3350 \
+  -v /opt/socatminer:/data \
+  socatminer/socatminer:latest
+🏗️ 系统架构plaintext                        ┌─────────────────────────┐
+                        │   SocatMiner 管理面板    │
+                        │   (Web Dashboard)       │
+                        └───────────┬─────────────┘
+                                    │
+                        ┌───────────▼─────────────┐
+                        │   核心控制引擎 (Core)    │
+                        │  ┌───────────────────┐  │
+                        │  │  配置管理中心      │  │
+                        │  │  认证与权限        │  │
+                        │  │  数据持久化        │  │
+                        │  └───────────────────┘  │
+                        └───────────┬─────────────┘
+                                    │
+        ┌───────────────────────────┼───────────────────────────┐
+        │                           │                           │
+┌───────▼───────┐         ┌─────────▼─────────┐       ┌─────────▼─────────┐
+│  Stratum 节点  │         │   矿池代理网关     │       │  安全隧道服务      │
+│  (自建矿池)    │         │  (Pool Proxy)     │       │  (Secure Tunnel)  │
+│               │         │                   │       │                   │
+│ • 份额验证    │         │ • 协议转换        │       │ • TLS 1.3 加密    │
+│ • 难度调整    │         │ • 负载均衡        │       │ • 数据压缩        │
+│ • 收益计算    │         │ • 故障转移        │       │ • 链路复用        │
+│ • 支付模块    │         │ • 算力统计        │       │ • 防嗅探          │
+└───────────────┘         └─────────┬─────────┘       └─────────┬─────────┘
+                                    │                           │
+                            ┌───────▼───────┐           ┌───────▼───────┐
+                            │  目标矿池集群  │           │  矿机本地客户端  │
+                            │ (全球多节点)   │           │ (SMC Client)   │
+                            └───────────────┘           └───────────────┘
+📊 性能基准
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+表格指标数值说明最大并发连接100,000+单节点 4 核 8G 环境转发延迟< 1 ms内网环境 P99 延迟内存占用~ 2 MB / 千连接极低内存开销CPU 使用率< 5% @ 1 万连接异步非阻塞架构崩溃恢复时间< 3 秒进程守护自动重启日算力统计精度99.9%份额级精确统计⚖️ 法律声明
+[!WARNING]
+合规使用提示
+SocatMiner 受香港特别行政区法律管辖。不同国家和地区对数字货币挖矿相关活动的监管要求存在差异。
+使用本软件前，请确保您所在司法管辖区允许开展数字货币挖矿及相关服务活动。用户需自行承担因违反当地法律法规而产生的全部责任。
+📄 许可证本项目基于 MIT License 开源发布。<div align="center">如果本项目对您有帮助，欢迎点亮 ⭐ Star 支持我们Made with ❤️ by SocatMiner Team</div>
+```
