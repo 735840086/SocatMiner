@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="image/log.png" alt="SocatMinerSystem" width="2800">
+
 # SocatMiner
 
 **高性能的矿池代理与全链路节点管理系统**
@@ -7,8 +9,9 @@
 <h4 align="center"> MinerProxy </h4>
 
 <p>
-  <a href="https://github.com/SocatMiner/SocatMiner/releases">
-    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/badge/Version-V3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
+  <a href="https://t.me/SocatMiner">
+    <img src="https://img.shields.io/badge/Telegram-SocatMiner-2CA5E0?logo=telegram&logoColor=white" alt="Telegram">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
@@ -17,7 +20,7 @@
     <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="https://github.com/735840086/SocatMiner">
   </a>
   <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
-  <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=GO&logoColor=white" alt="GO Version">
+  <img src="https://img.shields.io/badge/Socat-Miner%2B-DEA584?logo=GO&logoColor=white" alt="GO Version">
 </p>
 
 <p>
@@ -268,7 +271,7 @@
 
 ---
 
-## 📚 安全客户端
+## 📚 SocatProxy安全客户端
 
 | 🔐 **安全传输隧道** | 私有加密协议多重保护，配合本地安全客户端实现数据压缩与链路加密 |
 
