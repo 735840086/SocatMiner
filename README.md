@@ -9,8 +9,9 @@
 <h4 align="center"> MinerProxy </h4>
 
 <p>
-    <img src="https://img.shields.io/badge/Version-3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
-    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/badge/Version-V3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
+  <a href="https://t.me/SocatMiner">
+    <img src="https://img.shields.io/badge/Telegram-SocatMiner-2CA5E0?logo=telegram&logoColor=white" alt="Telegram">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
