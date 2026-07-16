@@ -29,9 +29,9 @@
 </p>
 
 <p>
-  <strong>🇨🇳 简体中文</strong>
+  <strong>📜 简体中文</strong>
   ·
-  <a href="README.en-US.md">🇺🇸 English</a>
+  <a href="README.en-US.md">📜 English</a>
 </p>
 
 <img src="https://raw.githubusercontent.com/SocatMiner/assets/main/banner.png" alt="SocatMiner 产品预览" width="900" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
