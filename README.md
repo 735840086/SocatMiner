@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="image/logo.png" alt="SocatMinerSystem" width="520">
+
 # SocatMiner
 
 **高性能的矿池代理与全链路节点管理系统**
