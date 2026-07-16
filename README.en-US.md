@@ -50,10 +50,15 @@ Built with a zero-copy asynchronous architecture, a single node can support **10
 | Feature | Description |
 |:---:|:---|
 | 🎯 **Mining Pool Proxy Forwarding** | Supports multiple mainstream mining algorithms and stably connects to major mining pools worldwide |
+    
 | ⚡ **Mining Pool Node Forwarding** | One-click Stratum node deployment, supporting custom fee rates, hashrate splitting and multi-level account system |
+
 | 🔐 **Secure Transmission Tunnel** | Multi-layer protection with proprietary encryption protocols, paired with a local security client for data compression and link encryption |
+
 | 📊 **Real-Time Monitoring Dashboard** | Web management backend provides multi-dimensional visual dashboards for hashrate trends, online status, revenue statistics and more |
+
 | 🌐 **Platform Deployment** | Linux x86 architecture supported, one-click deployment |
+
 </div>
 
 ---
