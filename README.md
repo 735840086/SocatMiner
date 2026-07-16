@@ -246,10 +246,10 @@
 <table>
   <tr>
     <td align="center">
-      <img src="/image/1.png" alt="Logo" width="150">
+      <img src="https://raw.githubusercontent.com/735840086/hhminer/main/image/1.png" alt="Logo" width="150">
     </td>
     <td align="center">
-      <img src="/image/2.png" alt="Logo" width="150">
+      <img src="https://raw.githubusercontent.com/735840086/hhminer/main/image/2.png" alt="Logo" width="150">
     </td>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
