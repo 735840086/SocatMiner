@@ -123,32 +123,30 @@
 ---
 
 ## 🏊 支持矿池
-
-## 🏊 支持矿池
 <div align="center">
 <table>
   <tr>
     <td align="center" width="140">
       <a href="https://www.f2pool.com" target="_blank">
-        <img src="https://img.shields.io/badge/F2Pool-00A0E9?style=flat&logo=bitcoin&logoColor=white" alt="F2Pool" height="32">
+        <img src="https://img.shields.io/badge/F2Pool-%2300A0E9?style=flat&logoColor=white" alt="F2Pool" height="32">
       </a>
       <br><sub>F2Pool 鱼池</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.antpool.com" target="_blank">
-        <img src="https://img.shields.io/badge/AntPool-1677FF?style=flat&logo=bitcoin&logoColor=white" alt="AntPool" height="32">
+        <img src="https://img.shields.io/badge/AntPool-%231677FF?style=flat&logoColor=white" alt="AntPool" height="32">
       </a>
       <br><sub>AntPool 蚂蚁矿池</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.viabtc.com" target="_blank">
-        <img src="https://img.shields.io/badge/ViaBTC-1E80FF?style=flat&logo=bitcoin&logoColor=white" alt="ViaBTC" height="32">
+        <img src="https://img.shields.io/badge/ViaBTC-%231E80FF?style=flat&logoColor=white" alt="ViaBTC" height="32">
       </a>
       <br><sub>ViaBTC</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.poolin.com" target="_blank">
-        <img src="https://img.shields.io/badge/Poolin-FF6A00?style=flat&logo=bitcoin&logoColor=white" alt="Poolin" height="32">
+        <img src="https://img.shields.io/badge/Poolin-%23FF6A00?style=flat&logoColor=white" alt="Poolin" height="32">
       </a>
       <br><sub>Poolin 币印</sub>
     </td>
@@ -156,25 +154,25 @@
   <tr>
     <td align="center" width="140">
       <a href="https://www.binance.com/zh-CN/pool" target="_blank">
-        <img src="https://img.shields.io/badge/Binance%20Pool-F3BA2F?style=flat&logo=binance&logoColor=black" alt="Binance Pool" height="28">
+        <img src="https://img.shields.io/badge/Binance%20Pool-%23F3BA2F?style=flat&logoColor=black" alt="Binance Pool" height="28">
       </a>
       <br><sub>Binance Pool</sub>
     </td>
     <td align="center" width="140">
       <a href="https://foundrydigital.com" target="_blank">
-        <img src="https://img.shields.io/badge/Foundry-111827?style=flat&logo=bitcoin&logoColor=white" alt="Foundry" height="28">
+        <img src="https://img.shields.io/badge/Foundry-%23111827?style=flat&logoColor=white" alt="Foundry" height="28">
       </a>
       <br><sub>Foundry</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.btc.com" target="_blank">
-        <img src="https://img.shields.io/badge/BTC.com-F7931A?style=flat&logo=bitcoin&logoColor=white" alt="BTC.com" height="28">
+        <img src="https://img.shields.io/badge/BTC.com-%23F7931A?style=flat&logoColor=white" alt="BTC.com" height="28">
       </a>
       <br><sub>BTC.com</sub>
     </td>
     <td align="center" width="140">
       <a href="https://icriver.net" target="_blank">
-        <img src="https://img.shields.io/badge/iCriver-2563EB?style=flat&logo=bitcoin&logoColor=white" alt="iCriver" height="28">
+        <img src="https://img.shields.io/badge/iCriver-%232563EB?style=flat&logoColor=white" alt="iCriver" height="28">
       </a>
       <br><sub>iCriver</sub>
     </td>
@@ -182,25 +180,25 @@
   <tr>
     <td align="center" width="140">
       <a href="https://miningpoolstats.stream" target="_blank">
-        <img src="https://img.shields.io/badge/MiningPoolStats-0E7490?style=flat&logo=chartmogul&logoColor=white" alt="MiningPoolStats" height="28">
+        <img src="https://img.shields.io/badge/MiningPoolStats-%230E7490?style=flat&logoColor=white" alt="MiningPoolStats" height="28">
       </a>
       <br><sub>MiningPoolStats</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.nicehash.com" target="_blank">
-        <img src="https://img.shields.io/badge/NiceHash-000000?style=flat&logo=nicehash&logoColor=white" alt="NiceHash" height="28">
+        <img src="https://img.shields.io/badge/NiceHash-%23000000?style=flat&logoColor=white" alt="NiceHash" height="28">
       </a>
       <br><sub>NiceHash</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.miningdutch.nl" target="_blank">
-        <img src="https://img.shields.io/badge/MiningDutch-0066CC?style=flat&logo=bitcoin&logoColor=white" alt="MiningDutch" height="28">
+        <img src="https://img.shields.io/badge/MiningDutch-%230066CC?style=flat&logoColor=white" alt="MiningDutch" height="28">
       </a>
       <br><sub>MiningDutch</sub>
     </td>
     <td align="center" width="140">
       <a href="https://prohashing.com" target="_blank">
-        <img src="https://img.shields.io/badge/ProHashing-28A745?style=flat&logo=bitcoin&logoColor=white" alt="ProHashing" height="28">
+        <img src="https://img.shields.io/badge/ProHashing-%2328A745?style=flat&logoColor=white" alt="ProHashing" height="28">
       </a>
       <br><sub>ProHashing</sub>
     </td>
@@ -208,25 +206,25 @@
   <tr>
     <td align="center" width="140">
       <a href="https://zergpool.com" target="_blank">
-        <img src="https://img.shields.io/badge/ZergPool-0088CC?style=flat&logo=bitcoin&logoColor=white" alt="ZergPool" height="28">
+        <img src="https://img.shields.io/badge/ZergPool-%230088CC?style=flat&logoColor=white" alt="ZergPool" height="28">
       </a>
       <br><sub>ZergPool</sub>
     </td>
     <td align="center" width="140">
       <a href="https://www.luxor.tech" target="_blank">
-        <img src="https://img.shields.io/badge/Luxor-7B2FFD?style=flat&logo=bitcoin&logoColor=white" alt="Luxor" height="28">
+        <img src="https://img.shields.io/badge/Luxor-%237B2FFD?style=flat&logoColor=white" alt="Luxor" height="28">
       </a>
       <br><sub>Luxor</sub>
     </td>
     <td align="center" width="140">
       <a href="https://braiins.com" target="_blank">
-        <img src="https://img.shields.io/badge/Braiins-005FF9?style=flat&logo=bitcoin&logoColor=white" alt="Braiins" height="28">
+        <img src="https://img.shields.io/badge/Braiins-%23005FF9?style=flat&logoColor=white" alt="Braiins" height="28">
       </a>
       <br><sub>Braiins</sub>
     </td>
     <td align="center" width="140">
       <a href="https://2miners.com" target="_blank">
-        <img src="https://img.shields.io/badge/2Miners-1F2937?style=flat&logo=bitcoin&logoColor=white" alt="2Miners" height="28">
+        <img src="https://img.shields.io/badge/2Miners-%231F2937?style=flat&logoColor=white" alt="2Miners" height="28">
       </a>
       <br><sub>2Miners</sub>
     </td>
@@ -234,6 +232,7 @@
 </table>
 <sub>兼容所有标准 Stratum 协议矿池</sub>
 </div>
+
 ---
 
 ## 🚀 快速部署
