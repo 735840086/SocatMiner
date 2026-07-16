@@ -4,9 +4,11 @@
 
 **高性能的矿池代理与全链路节点管理系统**
 
+<h4 align="center">MinerProxy MinerProxy MinerProxy</h4>
+
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
-    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=版本&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
@@ -15,7 +17,7 @@
     <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="https://github.com/735840086/SocatMiner">
   </a>
   <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
-  <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=rust&logoColor=white" alt="GO Version">
+  <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=GO&logoColor=white" alt="GO Version">
 </p>
 
 <p>
@@ -38,7 +40,7 @@
 
 ---
 
-## 🚀 项目简介
+## 🚀 简介
 
 **SocatMiner** 是一款高性能矿机集群流量转发代理系统，矿池代理与全链路节点管理。专为大规模矿场、矿池节点转发运营商和专业运维团队设计，提供高性能连接转发、多费率管理与可视化实时监控等核心能力。
 
@@ -181,7 +183,7 @@
   </tr>
 </table>
 
-<sub>兼容所有标准 Stratum V1 / V2 协议矿池，列表持续更新中</sub>
+<sub>兼容所有标准 Stratum 协议矿池</sub>
 
 </div>
 
@@ -226,7 +228,9 @@
 
 ## 📚 安全客户端
 
-| 🔐 **安全客户端使用** | [点击查看](https://docs.socatminer.org/secure-client) | 点击跳转 |
+| 🔐 **安全传输隧道** | 私有加密协议多重保护，配合本地安全客户端实现数据压缩与链路加密 |
+
+| 🔐 **安全客户端使用** | [点击查看](https://github.com/735840086/SocatProxy) 
 
 ---
 
@@ -241,6 +245,59 @@
 
 </div>
 
+### 😊 **特别感谢**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/1.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/2.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/3.png" alt="Logo" width="150">
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/4.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/5.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/6.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/7.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/8.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/9.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/10.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/11.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/12.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/13.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/14.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/15.png" alt="Logo" width="150">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/16.png" alt="Logo" width="150">
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
+
 ### 合作
 
 如需定制、技术支持或合作，请通过以下方式联系我们：
@@ -250,12 +307,12 @@
 
 ---
 
-## ⚖️ 法律声明
+## ⚖️ 协议声明
 
 > [!WARNING]
 > **合规使用提示**
 >
-> SocatMiner 法律管辖。不同国家和地区对数字货币挖矿相关活动的监管要求存在差异。
+> SocatMiner 法律管辖，不同国家和地区对数字货币挖矿相关活动的监管要求存在差异。
 >
 > 使用本软件前，请确保您所在司法管辖区允许开展数字货币挖矿及相关服务活动。用户需自行承担因违反当地法律法规而产生的全部责任。
 
