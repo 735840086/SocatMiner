@@ -19,7 +19,7 @@
 </p>
 
 <p>
-  <a href="https://socatminer.org">官方网站</a>
+  <a href="[https://socatminer.org](https://github.com/735840086/SocatMiner)">仓库地址</a>
   ·
   <a href="https://docs.socatminer.org">文档中心</a>
   ·
