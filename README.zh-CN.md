@@ -2,7 +2,7 @@
 
 # SocatMiner
 
-**下一代高性能矿池代理与节点管理系统**
+**高性能的矿池代理与全链路节点管理系统**
 
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
