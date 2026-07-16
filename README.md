@@ -3,7 +3,8 @@
 # SocatMiner
 
 **高性能的矿池代理与全链路节点管理系统**
-**---------------MinerProxy------------**
+
+<h4 align="center">MinerProxy MinerProxy MinerProxy</h4>
 
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
