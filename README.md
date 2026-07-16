@@ -243,15 +243,9 @@
 
 ### 😊 **特别感谢**
 
-<div style="display: flex; gap: 20px; align-items: center;">
-  <img src="/image/3.png" alt="Logo" width="150">
-  <img src="/image/4.png" alt="Logo" width="150">
-  <img src="/image/5.png" alt="Logo" width="150">
-  <img src="/image/6.png" alt="Logo" width="150">
-  <img src="/image/7.png" alt="Logo" width="150">
-  <img src="/image/8.png" alt="Logo" width="150">
-  <img src="/image/9.png" alt="Logo" width="150">
-</div>
+<img src="/image/1.png" alt="Logo" width="150" style="display: inline-block; margin-right: 20px;">
+<img src="/image/2.png" alt="Logo" width="150" style="display: inline-block; margin-right: 20px;">
+<img src="/image/3.png" alt="Logo" width="150" style="display: inline-block; margin-right: 20px;">
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/3.png" alt="Logo" width="150">
