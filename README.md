@@ -129,62 +129,61 @@
 <table>
   <tr>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/f2pool.png" alt="F2Pool" height="32">
+      <img src="https://www.f2pool.com/static/images/logo.png" alt="F2Pool" height="32">
       <br><sub>F2Pool 鱼池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/antpool.svg" alt="AntPool" height="32">
+      <img src="https://raw.githubusercontent.com/antpool/docs/master/assets/logo.png" alt="AntPool" height="32">
       <br><sub>AntPool 蚂蚁矿池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/poolin.png" alt="Poolin" height="32">
+      <img src="https://raw.githubusercontent.com/poolin/poolin-open-api/master/images/logo.png" alt="Poolin" height="32">
       <br><sub>Poolin 币印</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/viabtc.svg" alt="ViaBTC" height="32">
+      <img src="https://raw.githubusercontent.com/viabtc/open-api/master/docs/img/logo.png" alt="ViaBTC" height="32">
       <br><sub>ViaBTC</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/binance-pool.png" alt="Binance Pool" height="28">
+      <img src="https://bin.bnbstatic.com/image/static-pool/logo-pool.png" alt="Binance Pool" height="28">
       <br><sub>Binance Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/braiins-pool.svg" alt="Braiins Pool" height="28">
+      <img src="https://raw.githubusercontent.com/braiins/braiins-os/master/docs/logo.svg" alt="Braiins Pool" height="28">
       <br><sub>Braiins (Slush) Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/luxor.svg" alt="Luxor" height="28">
+      <img src="https://raw.githubusercontent.com/LuxorTech/sdk/main/assets/logo.svg" alt="Luxor" height="28">
       <br><sub>Luxor Tech</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/bitcoin-com.svg" alt="Bitcoin.com" height="28">
+      <img src="https://www.bitcoin.com/static/img/logo-bitcoin-com-blue.svg" alt="Bitcoin.com" height="28">
       <br><sub>Bitcoin.com Pool</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/nicehash.svg" alt="NiceHash" height="28">
+      <img src="https://raw.githubusercontent.com/nicehash/rest-api/master/assets/logo.svg" alt="NiceHash" height="28">
       <br><sub>NiceHash</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/miningdutch.png" alt="MiningDutch" height="28">
+      <img src="https://mining-dutch.nl/images/logo.png" alt="MiningDutch" height="28">
       <br><sub>MiningDutch</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/prohashing.svg" alt="ProHashing" height="28">
+      <img src="https://raw.githubusercontent.com/ProHashing/api-docs/master/static/logo.svg" alt="ProHashing" height="28">
       <br><sub>ProHashing</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://cdn.jsdelivr.net/gh/SocatMiner/assets@main/pools/zergpool.png" alt="ZergPool" height="28">
+      <img src="https://zergpool.com/img/logo.png" alt="ZergPool" height="28">
       <br><sub>ZergPool</sub>
     </td>
   </tr>
 </table>
 <sub>兼容所有标准 Stratum 协议矿池</sub>
 </div>
-
 ---
 
 ## 🚀 快速部署
