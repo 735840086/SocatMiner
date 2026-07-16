@@ -9,7 +9,7 @@
 <h4 align="center"> MinerProxy </h4>
 
 <p>
-  <a href="https://github.com/SocatMiner/SocatMiner/releases">
+    <img src="https://img.shields.io/badge/3.0.0-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
     <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
   </a>
   <a href="LICENSE">
