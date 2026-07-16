@@ -4,7 +4,7 @@
 
 **高性能的矿池代理与全链路节点管理系统**
 
-<h4 align="center">MinerProxy MinerProxy MinerProxy</h4>
+<h4 align="center"> MinerProxy </h4>
 
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
@@ -29,9 +29,9 @@
 </p>
 
 <p>
-  <strong>简体中文</strong>
+  <strong>📜 简体中文</strong>
   ·
-  <a href="README.en-US.md">English</a>
+  <a href="README.en-US.md">📜 English</a>
 </p>
 
 <img src="https://raw.githubusercontent.com/SocatMiner/assets/main/banner.png" alt="SocatMiner 产品预览" width="900" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 简介
+## 📚 简介
 
 **SocatMiner** 是一款高性能矿机集群流量转发代理系统，矿池代理与全链路节点管理。专为大规模矿场、矿池节点转发运营商和专业运维团队设计，提供高性能连接转发、多费率管理与可视化实时监控等核心能力。
 
@@ -70,28 +70,24 @@
 
 <div align="center">
 
-### 主流币种
+## 🔥 主流币种
 
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/eth.svg" alt="Ethereum" title="EthereumPoW (ETHW)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/etc.svg" alt="Ethereum Classic" title="Ethereum Classic (ETC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ltc.svg" alt="Litecoin" title="Litecoin (LTC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/bch.svg" alt="Bitcoin Cash" title="Bitcoin Cash (BCH)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zec.svg" alt="Zcash" title="Zcash (ZEC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/dash.svg" alt="Dash" title="Dash (DASH)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/xmr.svg" alt="Monero" title="Monero (XMR)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/eth.svg" alt="EthereumPoW" title="EthereumPoW (ETHW)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/etc.svg" alt="Ethereum Classic" title="Ethereum Classic (ETC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/ltc.svg" alt="Litecoin" title="Litecoin (LTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/bch.svg" alt="Bitcoin Cash" title="Bitcoin Cash (BCH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zec.svg" alt="Zcash" title="Zcash (ZEC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/dash.svg" alt="Dash" title="Dash (DASH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/xmr.svg" alt="Monero" title="Monero (XMR)" height="40" hspace="8">
 
-### 热门新兴币种
-
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/kas.svg" alt="Kaspa" title="Kaspa (KAS)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/rvn.svg" alt="Ravencoin" title="Ravencoin (RVN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/cfx.svg" alt="Conflux" title="Conflux (CFX)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/erg.svg" alt="Ergo" title="Ergo (ERG)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zen.svg" alt="Horizen" title="Horizen (ZEN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/aleph.svg" alt="Alephium" title="Alephium (ALPH)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/nexa.svg" alt="Nexa" title="Nexa (NEXA)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ckb.svg" alt="Nervos" title="Nervos (CKB)" height="36" hspace="6">
-
+### 
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/dcr.svg" alt="Monero" title="Monero (DCR)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zen.svg" alt="Monero" title="Monero (ZEN)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/sc.svg" alt="Monero" title="Monero (SC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/prl.svg" alt="Monero" title="Monero (PRL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zil.svg" alt="Monero" title="Monero (ZIL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/doge.svg" alt="Monero" title="Monero (DOGE)" height="40" hspace="8">
 </div>
 
 <details>
@@ -123,68 +119,114 @@
 ---
 
 ## 🏊 支持矿池
-
 <div align="center">
-
 <table>
   <tr>
     <td align="center" width="140">
-      <img src="https://www.f2pool.com/static/images/logo.png" alt="F2Pool" height="32">
+      <a href="https://www.f2pool.com" target="_blank">
+        <img src="https://img.shields.io/badge/F2Pool-%2300A0E9?style=flat&logoColor=white" alt="F2Pool" height="32">
+      </a>
       <br><sub>F2Pool 鱼池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://static.antpool.com/static/images/logo.png" alt="AntPool" height="32">
+      <a href="https://www.antpool.com" target="_blank">
+        <img src="https://img.shields.io/badge/AntPool-%231677FF?style=flat&logoColor=white" alt="AntPool" height="32">
+      </a>
       <br><sub>AntPool 蚂蚁矿池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.poolin.com/dist/images/logo.png" alt="Poolin" height="32">
-      <br><sub>Poolin 币印</sub>
+      <a href="https://www.viabtc.com" target="_blank">
+        <img src="https://img.shields.io/badge/ViaBTC-%231E80FF?style=flat&logoColor=white" alt="ViaBTC" height="32">
+      </a>
+      <br><sub>ViaBTC</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.viabtc.com/_nuxt/img/logo.3b3e6d6.png" alt="ViaBTC" height="32">
-      <br><sub>ViaBTC</sub>
+      <a href="https://www.poolin.com" target="_blank">
+        <img src="https://img.shields.io/badge/Poolin-%23FF6A00?style=flat&logoColor=white" alt="Poolin" height="32">
+      </a>
+      <br><sub>Poolin 币印</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://bin.bnbstatic.com/image/static-pool/logo-pool.png" alt="Binance Pool" height="28">
+      <a href="https://www.binance.com/zh-CN/pool" target="_blank">
+        <img src="https://img.shields.io/badge/Binance%20Pool-%23F3BA2F?style=flat&logoColor=black" alt="Binance Pool" height="28">
+      </a>
       <br><sub>Binance Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://slushpool.com/static/media/logo.6f8a4b7e.svg" alt="Braiins Pool" height="28">
-      <br><sub>Braiins (Slush) Pool</sub>
+      <a href="https://foundrydigital.com" target="_blank">
+        <img src="https://img.shields.io/badge/Foundry-%23111827?style=flat&logoColor=white" alt="Foundry" height="28">
+      </a>
+      <br><sub>Foundry</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://luxor.tech/wp-content/uploads/2022/03/luxor-logo-dark.svg" alt="Luxor" height="28">
-      <br><sub>Luxor Tech</sub>
+      <a href="https://www.btc.com" target="_blank">
+        <img src="https://img.shields.io/badge/BTC.com-%23F7931A?style=flat&logoColor=white" alt="BTC.com" height="28">
+      </a>
+      <br><sub>BTC.com</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.bitcoin.com/images/bitcoin-com-logo.svg" alt="Bitcoin.com" height="28">
-      <br><sub>Bitcoin.com Pool</sub>
+      <a href="https://icriver.net" target="_blank">
+        <img src="https://img.shields.io/badge/iCriver-%232563EB?style=flat&logoColor=white" alt="iCriver" height="28">
+      </a>
+      <br><sub>iCriver</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://www.nicehash.com/images/nh-logo-dark.svg" alt="NiceHash" height="28">
+      <a href="https://miningpoolstats.stream" target="_blank">
+        <img src="https://img.shields.io/badge/MiningPoolStats-%230E7490?style=flat&logoColor=white" alt="MiningPoolStats" height="28">
+      </a>
+      <br><sub>MiningPoolStats</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://www.nicehash.com" target="_blank">
+        <img src="https://img.shields.io/badge/NiceHash-%23000000?style=flat&logoColor=white" alt="NiceHash" height="28">
+      </a>
       <br><sub>NiceHash</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://mining-dutch.nl/images/logo.png" alt="MiningDutch" height="28">
+      <a href="https://www.miningdutch.nl" target="_blank">
+        <img src="https://img.shields.io/badge/MiningDutch-%230066CC?style=flat&logoColor=white" alt="MiningDutch" height="28">
+      </a>
       <br><sub>MiningDutch</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.prohashing.com/images/logo.svg" alt="ProHashing" height="28">
+      <a href="https://prohashing.com" target="_blank">
+        <img src="https://img.shields.io/badge/ProHashing-%2328A745?style=flat&logoColor=white" alt="ProHashing" height="28">
+      </a>
       <br><sub>ProHashing</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="140">
-      <img src="https://zergpool.com/img/logo.png" alt="ZergPool" height="28">
+      <a href="https://zergpool.com" target="_blank">
+        <img src="https://img.shields.io/badge/ZergPool-%230088CC?style=flat&logoColor=white" alt="ZergPool" height="28">
+      </a>
       <br><sub>ZergPool</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://www.luxor.tech" target="_blank">
+        <img src="https://img.shields.io/badge/Luxor-%237B2FFD?style=flat&logoColor=white" alt="Luxor" height="28">
+      </a>
+      <br><sub>Luxor</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://braiins.com" target="_blank">
+        <img src="https://img.shields.io/badge/Braiins-%23005FF9?style=flat&logoColor=white" alt="Braiins" height="28">
+      </a>
+      <br><sub>Braiins</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://2miners.com" target="_blank">
+        <img src="https://img.shields.io/badge/2Miners-%231F2937?style=flat&logoColor=white" alt="2Miners" height="28">
+      </a>
+      <br><sub>2Miners</sub>
     </td>
   </tr>
 </table>
-
 <sub>兼容所有标准 Stratum 协议矿池</sub>
-
 </div>
 
 ---
@@ -201,7 +243,7 @@
 | **带宽** | 10 Mbps | 100 Mbps 及以上 |
 | **磁盘** | 20 GB SSD | 50 GB SSD |
 
-### Linux 一键安装
+## 🌍 Linux 一键部署
 
 >
 ```安装脚本（推荐）
@@ -296,9 +338,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/16.png" alt="Logo" width="150">
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅特别感谢以上矿池提供了部分的技术支持</p>
 
-### 合作
+## ✨ 合作
 
 如需定制、技术支持或合作，请通过以下方式联系我们：
 
@@ -338,6 +380,9 @@ SocatMiner 是一款矿池协议转发与节点管理工具，不属于 VPN 或�
 - 本软件按"现状"提供，不提供任何明示或暗示的担保
 - 因使用本软件产生的任何直接或间接损失，开发者不承担责任
 - 如因当地法律法规导致使用本软件违法，全部责任由使用者自行承担
+
+- 本工具完全免费向用户开放，无任何激活、订阅、后台服务费。
+- 仅会从终端设备算力中统一收取 0.2% 固定开发维护费，全部用于版本迭代、服务器运维与技术更新。
 
 使用本软件即视为您已阅读并同意以上全部条款。
 
