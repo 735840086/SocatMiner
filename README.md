@@ -243,14 +243,15 @@
 
 ### 😊 **特别感谢**
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/735840086/hhminer/main/image/1.png" alt="Logo" width="150">
-    </td>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/735840086/hhminer/main/image/2.png" alt="Logo" width="150">
-    </td>
+<div style="display: flex; gap: 20px; align-items: center;">
+  <img src="/image/3.png" alt="Logo" width="150">
+  <img src="/image/4.png" alt="Logo" width="150">
+  <img src="/image/5.png" alt="Logo" width="150">
+  <img src="/image/6.png" alt="Logo" width="150">
+  <img src="/image/7.png" alt="Logo" width="150">
+  <img src="/image/8.png" alt="Logo" width="150">
+  <img src="/image/9.png" alt="Logo" width="150">
+</div>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/3.png" alt="Logo" width="150">
