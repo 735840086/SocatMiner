@@ -14,7 +14,7 @@
   <a href="https://github.com/SocatMiner/SocatMiner">
     <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
   </a>
-  <img src="https://img.shields.io/badge/性能-100K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
+  <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
   <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
 </p>
 
@@ -204,10 +204,10 @@
 ### Linux 一键安装
 
 >
+```安装脚本（推荐）
 
-```bash
-# 安装脚本（推荐）
- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+bash/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+
 ```
 
 安装完成后，访问 `https://服务器IP:端口号` 进入web管理后台。
