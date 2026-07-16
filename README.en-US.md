@@ -48,7 +48,9 @@ Built with a zero-copy asynchronous architecture, a single node can support **10
 
 <div align="center">
 | Feature | Description |
+    
 |:---:|:---|
+
 | 🎯 **Mining Pool Proxy Forwarding** | Supports multiple mainstream mining algorithms and stably connects to major mining pools worldwide |
     
 | ⚡ **Mining Pool Node Forwarding** | One-click Stratum node deployment, supporting custom fee rates, hashrate splitting and multi-level account system |
