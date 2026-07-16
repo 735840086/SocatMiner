@@ -1,8 +1,13 @@
 <div align="center">
+    
 <img src="image/log.png" alt="SocatMinerSystem" width="2800">
+
 # SocatMiner
+
 **High-Performance Mining Pool Proxy & Full-Link Node Management System**
+
 <h4 align="center"> MinerProxy </h4>
+
 <p>
     <img src="https://img.shields.io/badge/Version-V3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
   <a href="https://t.me/SocatMiner">
