@@ -1,70 +1,59 @@
 <div align="center">
-
+<img src="image/log.png" alt="SocatMinerSystem" width="2800">
 # SocatMiner
-
-**Next-Gen High-Performance Mining Pool Proxy & Node Management System**
-
+**High-Performance Mining Pool Proxy & Full-Link Node Management System**
+<h4 align="center"> MinerProxy </h4>
 <p>
-  <a href="https://github.com/SocatMiner/SocatMiner/releases">
-    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/badge/Version-V3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
+  <a href="https://t.me/SocatMiner">
+    <img src="https://img.shields.io/badge/Telegram-SocatMiner-2CA5E0?logo=telegram&logoColor=white" alt="Telegram">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/License-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
   </a>
   <a href="https://github.com/SocatMiner/SocatMiner">
-    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
+    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="https://github.com/735840086/SocatMiner">
   </a>
-  <img src="https://img.shields.io/badge/Performance-100K%20Connections-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
-  <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
+  <img src="https://img.shields.io/badge/Performance-10K%20Concurrent-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
+  <img src="https://img.shields.io/badge/Socat-Miner%2B-DEA584?logo=GO&logoColor=white" alt="GO Version">
 </p>
-
 <p>
-  <a href="https://socatminer.org">Official Website</a>
+  <a href="https://github.com/735840086/SocatMiner">Repository</a>
   ·
-  <a href="https://docs.socatminer.org">Documentation</a>
+  <a href="https://github.com/735840086/SocatMiner">Documentation</a>
   ·
-  <a href="https://github.com/SocatMiner/SocatMiner/releases">Changelog</a>
-  ·
-  <a href="#contact">Business Contact</a>
+  <a href="https://t.me/SocatMiner">Telegram</a>
 </p>
-
 <p>
-  <a href="README.zh-CN.md">简体中文</a>
+  <a href="README.md">📜 简体中文</a>
   ·
-  <strong>English</strong>
+  <strong>📜 English</strong>
 </p>
-
 <img src="https://raw.githubusercontent.com/SocatMiner/assets/main/banner.png" alt="SocatMiner Product Preview" width="900" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
-
 </div>
 
 ---
 
-## 🚀 Introduction
+## 📚 Introduction
 
-**SocatMiner** is an enterprise-grade mining pool proxy and full-stack node management system built in Rust. Designed for large-scale mining farms, pool node operators, and professional DevOps teams, it provides high-performance connection forwarding, intelligent load balancing, multi-chain fee management, and real-time visual monitoring.
+**SocatMiner** is a high-performance traffic forwarding proxy system for mining rig clusters, with mining pool proxy and full-link node management capabilities. Designed for large-scale mining farms, mining pool node forwarding operators and professional O&M teams, it provides core features including high-performance connection forwarding, multi-rate management and visualized real-time monitoring.
 
-Powered by a zero-copy async architecture, a single node can handle **100,000+** concurrent miner connections with sub-**1ms** latency. Combined with the SocatMiner Secure Client, it enables end-to-end encrypted transmission, effectively mitigating MITM attacks and traffic sniffing.
+Built with a zero-copy asynchronous architecture, a single node can support **10,000+** concurrent mining rig connections with low latency. Combined with Socat Proxy, it enables end-to-end encrypted transmission, effectively defending against attacks, carrier DPI inspection and traffic sniffing.
 
-> **Design Philosophy**: Stability First · Extreme Performance · Ops-Friendly · Compliance & Transparency
+> **Design Philosophy**: Stability First · Ultimate Performance · O&M Friendly · Minimal Operation
 
 ---
 
 ## ✨ Core Features
 
 <div align="center">
-
 | Feature | Description |
 |:---:|:---|
-| 🎯 **Pool Proxy Forwarding** | Supports 30+ major mining algorithms, seamless integration with global mining pools, smart routing and automatic failover |
-| ⚡ **Self-Hosted Pool Node** | One-click Stratum node deployment with custom fees, hashrate splitting, and multi-level account system |
-| 🔐 **Secure Transport Tunnel** | Proprietary encryption protocol + TLS 1.3 dual protection with data compression and link encryption via local client |
-| 📊 **Real-Time Monitoring** | Web dashboard with multi-dimensional visualizations: hashrate trends, online status, earnings statistics, and more |
-| 🌐 **Multi-Platform Deployment** | Full architecture support: Linux / Windows / macOS / ARM64 / ARMV7, one-click Docker deployment |
-| 🔧 **API & Webhooks** | Complete RESTful API and event callbacks for easy integration with your own operations and alerting systems |
-| 🧩 **Plugin Architecture** | Custom auth modules, billing plugins, and data exports to meet enterprise customization needs |
-| 🛡️ **DDoS Protection** | Built-in rate limiting, IP blacklisting, and anomaly detection to ensure node stability |
-
+| 🎯 **Mining Pool Proxy Forwarding** | Supports multiple mainstream mining algorithms and stably connects to major mining pools worldwide |
+| ⚡ **Mining Pool Node Forwarding** | One-click Stratum node deployment, supporting custom fee rates, hashrate splitting and multi-level account system |
+| 🔐 **Secure Transmission Tunnel** | Multi-layer protection with proprietary encryption protocols, paired with a local security client for data compression and link encryption |
+| 📊 **Real-Time Monitoring Dashboard** | Web management backend provides multi-dimensional visual dashboards for hashrate trends, online status, revenue statistics and more |
+| 🌐 **Platform Deployment** | Linux x86 architecture supported, one-click deployment |
 </div>
 
 ---
@@ -73,27 +62,25 @@ Powered by a zero-copy async architecture, a single node can handle **100,000+**
 
 <div align="center">
 
-### Major Cryptocurrencies
+## 🔥 Mainstream Coins
 
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/eth.svg" alt="Ethereum" title="EthereumPoW (ETHW)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/etc.svg" alt="Ethereum Classic" title="Ethereum Classic (ETC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ltc.svg" alt="Litecoin" title="Litecoin (LTC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/bch.svg" alt="Bitcoin Cash" title="Bitcoin Cash (BCH)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zec.svg" alt="Zcash" title="Zcash (ZEC)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/dash.svg" alt="Dash" title="Dash (DASH)" height="40" hspace="8">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/xmr.svg" alt="Monero" title="Monero (XMR)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/eth.svg" alt="EthereumPoW" title="EthereumPoW (ETHW)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/etc.svg" alt="Ethereum Classic" title="Ethereum Classic (ETC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/ltc.svg" alt="Litecoin" title="Litecoin (LTC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/bch.svg" alt="Bitcoin Cash" title="Bitcoin Cash (BCH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zec.svg" alt="Zcash" title="Zcash (ZEC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/dash.svg" alt="Dash" title="Dash (DASH)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/xmr.svg" alt="Monero" title="Monero (XMR)" height="40" hspace="8">
 
-### Popular Emerging Coins
+###
 
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/kas.svg" alt="Kaspa" title="Kaspa (KAS)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/rvn.svg" alt="Ravencoin" title="Ravencoin (RVN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/cfx.svg" alt="Conflux" title="Conflux (CFX)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/erg.svg" alt="Ergo" title="Ergo (ERG)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zen.svg" alt="Horizen" title="Horizen (ZEN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/aleph.svg" alt="Alephium" title="Alephium (ALPH)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/nexa.svg" alt="Nexa" title="Nexa (NEXA)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ckb.svg" alt="Nervos" title="Nervos (CKB)" height="36" hspace="6">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/dcr.svg" alt="Decred" title="Decred (DCR)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zen.svg" alt="Horizen" title="Horizen (ZEN)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/sc.svg" alt="Siacoin" title="Siacoin (SC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/prl.svg" alt="Pearl" title="Pearl (PRL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zil.svg" alt="Zilliqa" title="Zilliqa (ZIL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/doge.svg" alt="Dogecoin" title="Dogecoin (DOGE)" height="40" hspace="8">
 
 </div>
 
@@ -128,66 +115,113 @@ Powered by a zero-copy async architecture, a single node can handle **100,000+**
 ## 🏊 Supported Mining Pools
 
 <div align="center">
-
 <table>
   <tr>
     <td align="center" width="140">
-      <img src="https://www.f2pool.com/static/images/logo.png" alt="F2Pool" height="32">
+      <a href="https://www.f2pool.com" target="_blank">
+        <img src="https://img.shields.io/badge/F2Pool-%2300A0E9?style=flat&logoColor=white" alt="F2Pool" height="32">
+      </a>
       <br><sub>F2Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://static.antpool.com/static/images/logo.png" alt="AntPool" height="32">
+      <a href="https://www.antpool.com" target="_blank">
+        <img src="https://img.shields.io/badge/AntPool-%231677FF?style=flat&logoColor=white" alt="AntPool" height="32">
+      </a>
       <br><sub>AntPool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.poolin.com/dist/images/logo.png" alt="Poolin" height="32">
-      <br><sub>Poolin</sub>
+      <a href="https://www.viabtc.com" target="_blank">
+        <img src="https://img.shields.io/badge/ViaBTC-%231E80FF?style=flat&logoColor=white" alt="ViaBTC" height="32">
+      </a>
+      <br><sub>ViaBTC</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.viabtc.com/_nuxt/img/logo.3b3e6d6.png" alt="ViaBTC" height="32">
-      <br><sub>ViaBTC</sub>
+      <a href="https://www.poolin.com" target="_blank">
+        <img src="https://img.shields.io/badge/Poolin-%23FF6A00?style=flat&logoColor=white" alt="Poolin" height="32">
+      </a>
+      <br><sub>Poolin</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://bin.bnbstatic.com/image/static-pool/logo-pool.png" alt="Binance Pool" height="28">
+      <a href="https://www.binance.com/en/pool" target="_blank">
+        <img src="https://img.shields.io/badge/Binance%20Pool-%23F3BA2F?style=flat&logoColor=black" alt="Binance Pool" height="28">
+      </a>
       <br><sub>Binance Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://slushpool.com/static/media/logo.6f8a4b7e.svg" alt="Braiins Pool" height="28">
-      <br><sub>Braiins (Slush) Pool</sub>
+      <a href="https://foundrydigital.com" target="_blank">
+        <img src="https://img.shields.io/badge/Foundry-%23111827?style=flat&logoColor=white" alt="Foundry" height="28">
+      </a>
+      <br><sub>Foundry</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://luxor.tech/wp-content/uploads/2022/03/luxor-logo-dark.svg" alt="Luxor" height="28">
-      <br><sub>Luxor Tech</sub>
+      <a href="https://www.btc.com" target="_blank">
+        <img src="https://img.shields.io/badge/BTC.com-%23F7931A?style=flat&logoColor=white" alt="BTC.com" height="28">
+      </a>
+      <br><sub>BTC.com</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.bitcoin.com/images/bitcoin-com-logo.svg" alt="Bitcoin.com" height="28">
-      <br><sub>Bitcoin.com Pool</sub>
+      <a href="https://icriver.net" target="_blank">
+        <img src="https://img.shields.io/badge/iCriver-%232563EB?style=flat&logoColor=white" alt="iCriver" height="28">
+      </a>
+      <br><sub>iCriver</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://www.nicehash.com/images/nh-logo-dark.svg" alt="NiceHash" height="28">
+      <a href="https://miningpoolstats.stream" target="_blank">
+        <img src="https://img.shields.io/badge/MiningPoolStats-%230E7490?style=flat&logoColor=white" alt="MiningPoolStats" height="28">
+      </a>
+      <br><sub>MiningPoolStats</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://www.nicehash.com" target="_blank">
+        <img src="https://img.shields.io/badge/NiceHash-%23000000?style=flat&logoColor=white" alt="NiceHash" height="28">
+      </a>
       <br><sub>NiceHash</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://mining-dutch.nl/images/logo.png" alt="MiningDutch" height="28">
+      <a href="https://www.miningdutch.nl" target="_blank">
+        <img src="https://img.shields.io/badge/MiningDutch-%230066CC?style=flat&logoColor=white" alt="MiningDutch" height="28">
+      </a>
       <br><sub>MiningDutch</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.prohashing.com/images/logo.svg" alt="ProHashing" height="28">
+      <a href="https://prohashing.com" target="_blank">
+        <img src="https://img.shields.io/badge/ProHashing-%2328A745?style=flat&logoColor=white" alt="ProHashing" height="28">
+      </a>
       <br><sub>ProHashing</sub>
     </td>
+  </tr>
+  <tr>
     <td align="center" width="140">
-      <img src="https://zergpool.com/img/logo.png" alt="ZergPool" height="28">
+      <a href="https://zergpool.com" target="_blank">
+        <img src="https://img.shields.io/badge/ZergPool-%230088CC?style=flat&logoColor=white" alt="ZergPool" height="28">
+      </a>
       <br><sub>ZergPool</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://www.luxor.tech" target="_blank">
+        <img src="https://img.shields.io/badge/Luxor-%237B2FFD?style=flat&logoColor=white" alt="Luxor" height="28">
+      </a>
+      <br><sub>Luxor</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://braiins.com" target="_blank">
+        <img src="https://img.shields.io/badge/Braiins-%23005FF9?style=flat&logoColor=white" alt="Braiins" height="28">
+      </a>
+      <br><sub>Braiins</sub>
+    </td>
+    <td align="center" width="140">
+      <a href="https://2miners.com" target="_blank">
+        <img src="https://img.shields.io/badge/2Miners-%231F2937?style=flat&logoColor=white" alt="2Miners" height="28">
+      </a>
+      <br><sub>2Miners</sub>
     </td>
   </tr>
 </table>
-
-<sub>Compatible with all standard Stratum V1 / V2 protocol pools. List continuously updated.</sub>
-
+<sub>Compatible with all standard Stratum protocol mining pools</sub>
 </div>
 
 ---
@@ -196,177 +230,135 @@ Powered by a zero-copy async architecture, a single node can handle **100,000+**
 
 ### System Requirements
 
-| Component | Minimum | Recommended |
+| Configuration | Minimum | Recommended |
 |:---|:---|:---|
-| **OS** | Ubuntu 20.04 / CentOS 8 | Ubuntu 22.04 LTS |
-| **CPU** | 1 Core | 4+ Cores |
-| **RAM** | 512 MB | 4+ GB |
-| **Bandwidth** | 1 Mbps | 100+ Mbps |
-| **Storage** | 10 GB SSD | 50 GB SSD |
+| **Operating System** | Ubuntu 20.04 / CentOS 8 | Ubuntu 22.04 LTS |
+| **CPU** | 0.5 core | 2 cores or higher |
+| **Memory** | 512 MB | 2 GB or higher |
+| **Bandwidth** | 10 Mbps | 100 Mbps or higher |
+| **Storage** | 20 GB SSD | 50 GB SSD |
 
-### Linux One-Click Install
-
-> **Default Admin Credentials**: Username: `admin`  Password: `socatminer2024`
+## 🌍 Linux One-Click Deployment
 >
-> Please change the password and adjust the Web access port immediately after first login.
+```Installation Script (Recommended)
 
-```bash
-# Official installer (recommended)
-bash <(curl -fsSL https://install.socatminer.org)
-
-# GitHub mirror
-bash <(curl -fsSL https://raw.githubusercontent.com/SocatMiner/SocatMiner/main/install.sh)
-
-# ARM64 architecture
-bash <(curl -fsSL https://install.socatminer.org/arm64.sh)
-
-# ARMV7 architecture
-bash <(curl -fsSL https://install.socatminer.org/armv7.sh)
-```
-
-After installation, visit `http://SERVER_IP:PORT` to access the admin dashboard.
-
-### Docker Deployment
-
-```bash
-# Pull image
-docker pull socatminer/socatminer:latest
-
-# Start container
-docker run -d \
-  --name socatminer \
-  --restart unless-stopped \
-  -p 8080:8080 \
-  -p 3333-3350:3333-3350 \
-  -v /opt/socatminer:/data \
-  socatminer/socatminer:latest
-```
-
-### Windows Deployment
-
-1. Go to the [Releases page](https://github.com/SocatMiner/SocatMiner/releases) and download the latest Windows version
-2. Extract to any directory, run `SocatMiner.exe` as Administrator
-3. Access the Web dashboard following the terminal prompts
-
----
-
-## 🏗️ System Architecture
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
 ```
-                        ┌─────────────────────────┐
-                        │   SocatMiner Dashboard  │
-                        │      (Web UI)           │
-                        └───────────┬─────────────┘
-                                    │
-                        ┌───────────▼─────────────┐
-                        │    Core Control Engine   │
-                        │  ┌───────────────────┐  │
-                        │  │  Config Manager    │  │
-                        │  │  Auth & Perms      │  │
-                        │  │  Data Persistence  │  │
-                        │  └───────────────────┘  │
-                        └───────────┬─────────────┘
-                                    │
-        ┌───────────────────────────┼───────────────────────────┐
-        │                           │                           │
-┌───────▼───────┐         ┌─────────▼─────────┐       ┌─────────▼─────────┐
-│ Stratum Node  │         │   Pool Proxy GW    │       │  Secure Tunnel    │
-│ (Self-Hosted) │         │                   │       │    Service        │
-│               │         │ • Protocol Conv.   │       │ • TLS 1.3 Encrypt │
-│ • Share Verify│         │ • Load Balancing   │       │ • Data Compression│
-│ • Difficulty  │         │ • Failover         │       │ • Link Multiplex  │
-│ • Reward Calc │         │ • Hashrate Stats   │       │ • Anti-Sniffing   │
-│ • Payout Mod  │         │                   │       │                   │
-└───────────────┘         └─────────┬─────────┘       └─────────┬─────────┘
-                                    │                           │
-                            ┌───────▼───────┐           ┌───────▼───────┐
-                            │ Target Pools  │           │  Miner Client  │
-                            │ (Global)      │           │  (SMC Client)  │
-                            └───────────────┘           └───────────────┘
-```
+After installation, visit https://ServerIP:Port to access the web management panel.
 
----
 
 ## 📊 Performance Benchmarks
 
-| Metric | Value | Notes |
+| Metric | Value | Description |
 |:---|:---:|:---|
-| **Max Concurrent Connections** | 100,000+ | Single node, 4 cores / 8GB RAM |
+| **Max Concurrent Connections** | 10,000+ | Single node, 4-core 8GB environment |
 | **Forwarding Latency** | < 1 ms | P99 latency on intranet |
-| **Memory Footprint** | ~ 2 MB / 1k conns | Extremely low overhead |
-| **CPU Usage** | < 5% @ 10k conns | Async non-blocking architecture |
-| **Crash Recovery Time** | < 3 sec | Process watchdog auto-restart |
+| **Memory Footprint** | ~ 100 MB / 1k connections | Extremely low memory overhead |
+| **CPU Usage** | < 5% @ 1k connections | Asynchronous non-blocking architecture |
+| **Crash Recovery Time** | < 3 seconds | Process watchdog with auto-restart |
 | **Daily Hashrate Accuracy** | 99.9% | Share-level precise statistics |
 
 ---
 
-## 📚 Documentation
+## 📚 SocatProxy Security Client
 
-| Document | Link | Audience |
-|:---|:---|:---|
-| 🚀 **Quick Start Guide** | [View](https://docs.socatminer.org/quickstart) | New Users |
-| ⚙️ **Pool Proxy Setup** | [View](https://docs.socatminer.org/pool-proxy) | Farm Operators |
-| 🏗️ **Self-Hosted Node Guide** | [View](https://docs.socatminer.org/node-setup) | Node Operators |
-| 🔐 **Secure Client Guide** | [View](https://docs.socatminer.org/secure-client) | All Users |
-| 📡 **API Reference** | [View](https://docs.socatminer.org/api) | Developers |
-| ❓ **FAQ** | [View](https://docs.socatminer.org/faq) | All Users |
+| 🔐 **Secure Transmission Tunnel** | Multi-layer protection with proprietary encryption protocols, paired with a local security client for data compression and link encryption |
+| 🔐 **Security Client Usage** | [Click to view](https://github.com/735840086/SocatProxy) |
 
 ---
 
 ## 🌐 Community & Support
 
 <div align="center">
-
-[![Telegram](https://img.shields.io/badge/Telegram-Official_Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/socatminer)
-[![Discord](https://img.shields.io/badge/Discord-Join_Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/socatminer)
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Group-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SocatMiner)
+[![Discord](https://img.shields.io/badge/Discord-Join%20Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/socatminer)
 [![Twitter/X](https://img.shields.io/badge/X-@socatminer-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/socatminer)
-[![GitHub Issues](https://img.shields.io/badge/GitHub-Report_Issue-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SocatMiner/SocatMiner/issues)
-
+[![GitHub Issues](https://img.shields.io/badge/GitHub-Submit%20Issue-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SocatMiner/SocatMiner/issues)
 </div>
 
-### Business Contact
+### 😊 Special Thanks
 
-For enterprise customization, OEM licensing, technical support, or node partnerships, reach out to us:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/1.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/2.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/3.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/4.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/5.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/6.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/7.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/8.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/9.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/10.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/11.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/12.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/13.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/14.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/15.png" alt="Logo" width="150">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="/image/16.png" alt="Logo" width="150">
 
-- 📧 Business Email: `business@socatminer.org`
-- 💬 Telegram: `@socatminer_admin`
-- 📋 Contact Form: [Submit Inquiry](https://socatminer.org/contact)
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅ Special thanks to the mining pools above for providing partial technical support</p>
 
 ---
 
-## ⚖️ Legal Notice
+## ✨ Cooperation
+
+For customization, technical support or cooperation inquiries, please contact us via:
+- 📧 Email: `18628808761h@sina.cn`
+- 💬 Telegram: `@cm1388s`
+
+---
+
+## ⚖️ Terms of Service
 
 > [!WARNING]
 > **Compliance Notice**
 >
-> SocatMiner is governed by the laws of the Hong Kong Special Administrative Region. Regulatory requirements for cryptocurrency mining activities vary across countries and regions.
+> SocatMiner is subject to local legal jurisdiction. Regulatory requirements for cryptocurrency mining activities vary across countries and regions.
 >
-> Before using this software, please ensure that cryptocurrency mining and related services are permitted in your jurisdiction. Users assume full responsibility for any violations of local laws and regulations.
+> Before using this software, please ensure that cryptocurrency mining and related activities are permitted in your jurisdiction. Users shall bear full responsibility for any violations of local laws and regulations.
 
 <details>
 <summary><strong>📜 Full Terms of Service</strong></summary>
 
-### 1. Software Nature
-SocatMiner is a mining pool protocol forwarding and node management tool. It is not a VPN or proxy product and does not have the capability to bypass network restrictions or access prohibited content.
+### 1. Nature of the Software
+SocatMiner is a mining pool protocol forwarding and node management tool. It is not a VPN or network proxy product, and does not provide functions to bypass network restrictions or access prohibited content.
 
 ### 2. Prerequisites for Use
-- You confirm full ownership or legal management authority over all connected mining devices
-- All connected devices are configured with connection addresses voluntarily by their owners
-- You are not listed on any terrorism organization or sanctions list
-- Cryptocurrency activities are legal in your jurisdiction
+- You confirm that you have full ownership or legal management authority over the connected mining rigs
+- All connected devices are configured with connection addresses by their respective owners
+- You are not listed on any terrorist organization or sanctions list
+- Cryptocurrency-related activities are permitted in your region
 
 ### 3. Restricted Regions
-This software is not available to users in:
+This software is not available to users in the following regions:
 - Mainland China
-- Sanctioned countries: Cuba, Iran, North Korea, Syria, etc.
-- Any other jurisdiction that explicitly prohibits cryptocurrency mining
+- Sanctioned countries including Cuba, Iran, North Korea, Syria
+- Other jurisdictions where cryptocurrency mining is explicitly prohibited
 
 ### 4. Disclaimer
 - This software is provided "as is" without any express or implied warranties
-- Developers shall not be liable for any direct or indirect damages arising from use
-- Users bear full responsibility for any legal violations caused by local regulations
+- The developers shall not be liable for any direct or indirect losses arising from the use of this software
+- Users assume full responsibility for any legal consequences caused by violations of local laws and regulations
+- This tool is completely free of charge. There are no activation fees, subscription fees or backend service charges.
+- A fixed 0.2% development and maintenance fee is deducted uniformly from terminal device hashrate, which is fully used for version iteration, server operation and technical updates.
 
-By using this software, you acknowledge that you have read and agree to all the above terms.
+By using this software, you acknowledge that you have read and agree to all of the above terms.
 
 </details>
 
@@ -374,14 +366,12 @@ By using this software, you acknowledge that you have read and agree to all the 
 
 ## 📄 License
 
-This project is released under the [MIT License](LICENSE).
+This project is open-sourced under the [MIT License](LICENSE).
 
 ---
 
 <div align="center">
-
-**If this project helps you, please ⭐ Star to show your support**
+**If this project helps you, feel free to give us a ⭐ Star to show your support**
 
 Made with ❤️ by SocatMiner Team
-
 </div>
