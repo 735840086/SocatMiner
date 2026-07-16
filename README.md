@@ -241,10 +241,24 @@
 
 </div>
 
-### 👉 **特别感谢**
+### 😊 **特别感谢**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="./image/ScreenShot.png" alt="Logo" width="100">
+<img src=".image/ScreenShot_2026-07-16_162802_863.png" alt="Logo" width="120">
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
+
+   </td>
+   </tr>
+   <tr>
+   <td>
+
+   </td>
+   </tr>
+   <tr>
+   <td>
+
+<span id="gengxin"></span>
 
 ### 合作
 
