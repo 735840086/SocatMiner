@@ -263,7 +263,9 @@ After installation, visit https://ServerIP:Port to access the web management pan
 
 ## 📚 SocatProxy Security Client
 
-| 🔐 **Secure Transmission Tunnel** | Multi-layer protection with proprietary encryption protocols, paired with a local security client for data compression and link encryption |
+| 🔐 **Secure Transmission Tunnel** | Multi-layer protection with proprietary encryption protocols, paired with a local security client for data
+compression and link encryption |
+
 | 🔐 **Security Client Usage** | [Click to view](https://github.com/735840086/SocatProxy) |
 
 ---
