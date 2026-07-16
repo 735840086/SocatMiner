@@ -248,18 +248,6 @@
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
 
-   </td>
-   </tr>
-   <tr>
-   <td>
-
-   </td>
-   </tr>
-   <tr>
-   <td>
-
-<span id="gengxin"></span>
-
 ### 合作
 
 如需定制、技术支持或合作，请通过以下方式联系我们：
