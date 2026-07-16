@@ -251,14 +251,14 @@
 >
 ```安装脚本（推荐）
 
- /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
 ```
 
 >
 ```安装脚本（国内加速）
 
- /bin/bash -c "$(curl -fsSL https://gitee.com/hhminer/socat/raw/main/install.sh)""
+/bin/bash -c "$(curl -fsSL https://gitee.com/hhminer/socat/raw/main/install.sh)""
 
 ```
 
