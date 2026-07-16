@@ -129,55 +129,55 @@
 <table>
   <tr>
     <td align="center" width="140">
-      <img src="https://www.f2pool.com/static/images/logo.png" alt="F2Pool" height="32">
+      <img src="https://img.shields.io/badge/F2Pool-00A0E9?style=flat&logoColor=white" alt="F2Pool" height="32">
       <br><sub>F2Pool 鱼池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/antpool/docs/master/assets/logo.png" alt="AntPool" height="32">
+      <img src="https://img.shields.io/badge/AntPool-1677FF?style=flat&logoColor=white" alt="AntPool" height="32">
       <br><sub>AntPool 蚂蚁矿池</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/poolin/poolin-open-api/master/images/logo.png" alt="Poolin" height="32">
+      <img src="https://img.shields.io/badge/Poolin-FF6A00?style=flat&logoColor=white" alt="Poolin" height="32">
       <br><sub>Poolin 币印</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/viabtc/open-api/master/docs/img/logo.png" alt="ViaBTC" height="32">
+      <img src="https://img.shields.io/badge/ViaBTC-1E80FF?style=flat&logoColor=white" alt="ViaBTC" height="32">
       <br><sub>ViaBTC</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://bin.bnbstatic.com/image/static-pool/logo-pool.png" alt="Binance Pool" height="28">
+      <img src="https://img.shields.io/badge/Binance%20Pool-F3BA2F?style=flat&logoColor=black" alt="Binance Pool" height="28">
       <br><sub>Binance Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/braiins/braiins-os/master/docs/logo.svg" alt="Braiins Pool" height="28">
+      <img src="https://img.shields.io/badge/Braiins%20Pool-005FF9?style=flat&logoColor=white" alt="Braiins Pool" height="28">
       <br><sub>Braiins (Slush) Pool</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/LuxorTech/sdk/main/assets/logo.svg" alt="Luxor" height="28">
+      <img src="https://img.shields.io/badge/Luxor%20Tech-7B2FFD?style=flat&logoColor=white" alt="Luxor" height="28">
       <br><sub>Luxor Tech</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://www.bitcoin.com/static/img/logo-bitcoin-com-blue.svg" alt="Bitcoin.com" height="28">
+      <img src="https://img.shields.io/badge/Bitcoin.com-4BC51D?style=flat&logoColor=white" alt="Bitcoin.com" height="28">
       <br><sub>Bitcoin.com Pool</sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/nicehash/rest-api/master/assets/logo.svg" alt="NiceHash" height="28">
+      <img src="https://img.shields.io/badge/NiceHash-000000?style=flat&logoColor=white" alt="NiceHash" height="28">
       <br><sub>NiceHash</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://mining-dutch.nl/images/logo.png" alt="MiningDutch" height="28">
+      <img src="https://img.shields.io/badge/MiningDutch-0066CC?style=flat&logoColor=white" alt="MiningDutch" height="28">
       <br><sub>MiningDutch</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://raw.githubusercontent.com/ProHashing/api-docs/master/static/logo.svg" alt="ProHashing" height="28">
+      <img src="https://img.shields.io/badge/ProHashing-28A745?style=flat&logoColor=white" alt="ProHashing" height="28">
       <br><sub>ProHashing</sub>
     </td>
     <td align="center" width="140">
-      <img src="https://zergpool.com/img/logo.png" alt="ZergPool" height="28">
+      <img src="https://img.shields.io/badge/ZergPool-0088CC?style=flat&logoColor=white" alt="ZergPool" height="28">
       <br><sub>ZergPool</sub>
     </td>
   </tr>
