@@ -29,9 +29,9 @@
 </p>
 
 <p>
-  <strong>简体中文</strong>
+  <strong>🇨🇳 简体中文</strong>
   ·
-  <a href="README.en-US.md">English</a>
+  <a href="README.en-US.md">🇺🇸 English</a>
 </p>
 
 <img src="https://raw.githubusercontent.com/SocatMiner/assets/main/banner.png" alt="SocatMiner 产品预览" width="900" style="border-radius: 12px; box-shadow: 0 10px 40px rgba(0,0,0,0.3);">
@@ -40,7 +40,7 @@
 
 ---
 
-## 🚀 简介
+## 📚 简介
 
 **SocatMiner** 是一款高性能矿机集群流量转发代理系统，矿池代理与全链路节点管理。专为大规模矿场、矿池节点转发运营商和专业运维团队设计，提供高性能连接转发、多费率管理与可视化实时监控等核心能力。
 
@@ -70,7 +70,7 @@
 
 <div align="center">
 
-### 主流币种
+## 🔥 主流币种
 
 <img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/btc.svg" alt="Bitcoin" title="Bitcoin (BTC)" height="40" hspace="8">
 <img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/eth.svg" alt="EthereumPoW" title="EthereumPoW (ETHW)" height="40" hspace="8">
@@ -247,7 +247,7 @@
 | **带宽** | 10 Mbps | 100 Mbps 及以上 |
 | **磁盘** | 20 GB SSD | 50 GB SSD |
 
-### Linux 一键安装
+## 🌍 Linux 一键部署
 
 >
 ```安装脚本（推荐）
@@ -342,9 +342,9 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/16.png" alt="Logo" width="150">
 
-<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;✅特别感谢以上矿池提供了部分的技术支持</p>
 
-### 合作
+## ✨ 合作
 
 如需定制、技术支持或合作，请通过以下方式联系我们：
 
