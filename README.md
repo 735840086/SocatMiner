@@ -83,14 +83,15 @@
 
 ### 热门新兴币种
 
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/kas.svg" alt="Kaspa" title="Kaspa (KAS)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/rvn.svg" alt="Ravencoin" title="Ravencoin (RVN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/cfx.svg" alt="Conflux" title="Conflux (CFX)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/erg.svg" alt="Ergo" title="Ergo (ERG)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/zen.svg" alt="Horizen" title="Horizen (ZEN)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/aleph.svg" alt="Alephium" title="Alephium (ALPH)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/nexa.svg" alt="Nexa" title="Nexa (NEXA)" height="36" hspace="6">
-<img src="https://cdn.jsdelivr.net/gh/atomiclabs/cryptocurrency-icons@16edb8e652a0c43c58c3d7e4a7b7c6f9a0e4d3c2/svg/color/ckb.svg" alt="Nervos" title="Nervos (CKB)" height="36" hspace="6">
+### 热门新兴币种
+<img src="https://assets.coingecko.com/coins/images/19826/small/kaspa.png" alt="Kaspa" title="Kaspa (KAS)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/2792/small/ravencoin.png" alt="Ravencoin" title="Ravencoin (RVN)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/13569/small/Conflux.png" alt="Conflux" title="Conflux (CFX)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/4371/small/ergo.png" alt="Ergo" title="Ergo (ERG)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/479/small/horizen.png" alt="Horizen" title="Horizen (ZEN)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/19827/small/alephium.png" alt="Alephium" title="Alephium (ALPH)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/26724/small/nexa.png" alt="Nexa" title="Nexa (NEXA)" height="36" hspace="6">
+<img src="https://assets.coingecko.com/coins/images/10598/small/nervos-network.png" alt="Nervos" title="Nervos (CKB)" height="36" hspace="6">
 
 </div>
 
