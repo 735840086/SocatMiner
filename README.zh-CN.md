@@ -11,21 +11,19 @@
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
   </a>
-  <a href="https://github.com/SocatMiner/SocatMiner">
-    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
+  <a href="[https://github.com/SocatMiner/SocatMiner]">
+    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="https://github.com/735840086/SocatMiner">
   </a>
   <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
-  <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
+  <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=rust&logoColor=white" alt="GO Version">
 </p>
 
 <p>
-  <a href="https://socatminer.org">官方网站</a>
+  <a href="https://github.com/735840086/SocatMiner">仓库地址</a>
   ·
-  <a href="https://docs.socatminer.org">文档中心</a>
+  <a href="https://github.com/735840086/SocatMiner">文档中心</a>
   ·
-  <a href="https://github.com/SocatMiner/SocatMiner/releases">更新日志</a>
-  ·
-  <a href="#联系方式">商务合作</a>
+  <a href="https://t.me/SocatMiner">Telegram</a>
 </p>
 
 <p>
@@ -228,9 +226,7 @@
 
 ## 📚 安全客户端
 
-|安全客户端|
-|:---|:---|:---|
-| 🔐 **安全客户端使用** | [点击查看](https://docs.socatminer.org/secure-client) | 所有用户 |
+| 🔐 **安全客户端使用** | [点击查看](https://docs.socatminer.org/secure-client) | 点击跳转 |
 
 ---
 
@@ -238,7 +234,7 @@
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-官方群组-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/socatminer)
+[![Telegram](https://img.shields.io/badge/Telegram-Telegram群组-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/SocatMiner)
 [![Discord](https://img.shields.io/badge/Discord-加入社区-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/socatminer)
 [![Twitter/X](https://img.shields.io/badge/X-@socatminer-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/socatminer)
 [![GitHub Issues](https://img.shields.io/badge/GitHub-提交问题-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SocatMiner/SocatMiner/issues)
