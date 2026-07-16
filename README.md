@@ -83,6 +83,11 @@
 
 ### 
 <img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/dcr.svg" alt="Monero" title="Monero (DCR)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zen.svg" alt="Monero" title="Monero (ZEN)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/sc.svg" alt="Monero" title="Monero (SC)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/prl.svg" alt="Monero" title="Monero (PRL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/zil.svg" alt="Monero" title="Monero (ZIL)" height="40" hspace="8">
+<img src="https://cdn.jsdelivr.net/npm/@creativebrandon/cryptocurrency-icons@0.0.4/svg/color/doge.svg" alt="Monero" title="Monero (DOGE)" height="40" hspace="8">
 </div>
 
 <details>
