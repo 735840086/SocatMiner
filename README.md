@@ -241,6 +241,11 @@
 
 </div>
 
+### 👉 **特别感谢**
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img src="./image/ScreenShot.png" alt="Logo" width="100">
+
 ### 合作
 
 如需定制、技术支持或合作，请通过以下方式联系我们：
