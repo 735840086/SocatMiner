@@ -248,8 +248,8 @@
 
 ## 🌍 Linux 一键部署
 
->111111
-```安装脚本（推荐）
+>一键安装脚本（推荐）
+```
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
