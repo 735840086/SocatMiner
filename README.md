@@ -243,14 +243,14 @@
 
 ### 😊 **特别感谢**
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/18.png" alt="Logo" width="150">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/1.png" alt="Logo" width="150">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/2.png" alt="Logo" width="150">
+<table>
+  <tr>
+    <td align="center">
+      <img src="/image/1.png" alt="Logo" width="150">
+    </td>
+    <td align="center">
+      <img src="/image/2.png" alt="Logo" width="150">
+    </td>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/3.png" alt="Logo" width="150">
@@ -293,9 +293,6 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <img src="/image/16.png" alt="Logo" width="150">
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/17.png" alt="Logo" width="150">
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
 
