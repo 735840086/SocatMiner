@@ -208,6 +208,7 @@
 ```bash
 # 安装脚本（推荐）
  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+```
 
 安装完成后，访问 `https://服务器IP:端口号` 进入web管理后台。
 
