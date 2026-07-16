@@ -206,7 +206,7 @@
 >
 ```安装脚本（推荐）
 
-bash/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
 ```
 
