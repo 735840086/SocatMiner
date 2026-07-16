@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="image/log.png" alt="SocatMinerSystem" width="2000">
+<img src="image/log.png" alt="SocatMinerSystem" width="2800">
 
 # SocatMiner
 
