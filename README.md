@@ -12,7 +12,7 @@
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
   </a>
   <a href="https://github.com/SocatMiner/SocatMiner">
-    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
+    <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="[GitHub stars](https://github.com/735840086/SocatMiner)">
   </a>
   <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
   <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
