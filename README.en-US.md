@@ -246,8 +246,14 @@ Built with a zero-copy asynchronous architecture, a single node can support **10
 | **Storage** | 20 GB SSD | 50 GB SSD |
 
 ## 🌍 Linux One-Click Deployment
->
-```Installation Script (Recommended)
+>Installation Script (Recommended)
+```
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+
+```
+>Installation Script (RDomestic speed-up)
+```
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
 
