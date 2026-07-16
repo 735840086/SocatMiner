@@ -6,7 +6,7 @@
 
 <p>
   <a href="https://github.com/SocatMiner/SocatMiner/releases">
-    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=版本&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/github/v/tag/SocatMiner/SocatMiner?label=Version&color=0EA5E9&logo=semver&logoColor=white" alt="Version">
   </a>
   <a href="LICENSE">
     <img src="https://img.shields.io/badge/许可证-MIT-22C55E?logo=open-source-initiative&logoColor=white" alt="License">
