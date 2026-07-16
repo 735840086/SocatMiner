@@ -15,7 +15,7 @@
     <img src="https://img.shields.io/github/stars/SocatMiner/SocatMiner?style=flat&color=F59E0B&logo=github" alt="GitHub stars">
   </a>
   <img src="https://img.shields.io/badge/性能-10K%20并发-8B5CF6?logo=lightning&logoColor=white" alt="Performance">
-  <img src="https://img.shields.io/badge/Rust-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
+  <img src="https://img.shields.io/badge/GO-1.75%2B-DEA584?logo=rust&logoColor=white" alt="Rust Version">
 </p>
 
 <p>
