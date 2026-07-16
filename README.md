@@ -244,7 +244,7 @@
 ### 😊 **特别感谢**
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="/image/ScreenShot.png" alt="Logo" width="100">
+<img src="/image/ScreenShot.png" alt="Logo" width="120">
 
 <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;😊特别感谢以上矿池提供了部分的技术支持</p>
 
