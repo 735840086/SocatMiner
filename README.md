@@ -254,7 +254,7 @@
 ```
 >一键安装脚本（国内加速）
 ```
- /bin/bash -c "$(curl -fsSL https://gitee.com/hhminer/socat/raw/main/install.sh)""
+ /bin/bash -c "$(curl -fsSL https://gitee.com/hhminer/socat/raw/main/install.sh)"
 ```
 
 安装完成后，访问 `https://服务器IP:端口号` 进入web管理后台。
