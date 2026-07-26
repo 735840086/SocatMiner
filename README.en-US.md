@@ -249,7 +249,7 @@ Built with a zero-copy asynchronous architecture, a single node can support **10
 >Installation Script (Recommended)
 ```
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/hhminer.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/735840086/hhminer/main/-----)"
 
 ```
 >Installation Script (Acceleration in China)
