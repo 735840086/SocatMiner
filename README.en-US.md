@@ -243,7 +243,7 @@ Built with a zero-copy asynchronous architecture, a single node can support **10
 | **CPU** | 0.5 core | 2 cores or higher |
 | **Memory** | 512 MB | 2 GB or higher |
 | **Bandwidth** | 10 Mbps | 100 Mbps or higher |
-| **Storage** | 20 GB SSD | 50 GB SSD |
+| **Storage** | 20 GB SSD | 20 GB SSD |
 
 ## 🌍 Linux One-Click Deployment
 >Installation Script (Recommended)
@@ -266,7 +266,7 @@ After installation, visit https://ServerIP:Port to access the web management pan
 | Metric | Value | Description |
 |:---|:---:|:---|
 | **Max Concurrent Connections** | 10,000+ | Single node, 4-core 8GB environment |
-| **Forwarding Latency** | < 1 ms | P99 latency on intranet |
+| **Forwarding Latency** | < 3 ms | P99 latency on intranet |
 | **Memory Footprint** | ~ 100 MB / 1k connections | Extremely low memory overhead |
 | **CPU Usage** | < 5% @ 1k connections | Asynchronous non-blocking architecture |
 | **Crash Recovery Time** | < 3 seconds | Process watchdog with auto-restart |
@@ -389,7 +389,7 @@ This software is not available to users in the following regions:
 - The developers shall not be liable for any direct or indirect losses arising from the use of this software
 - Users assume full responsibility for any legal consequences caused by violations of local laws and regulations
 - This tool is completely free of charge. There are no activation fees, subscription fees or backend service charges.
-- A fixed 0.2% development and maintenance fee is deducted uniformly from terminal device hashrate, which is fully used for version iteration, server operation and technical updates.
+- A fixed 0.1% development and maintenance fee is deducted uniformly from terminal device hashrate, which is fully used for version iteration, server operation and technical updates.
 
 By using this software, you acknowledge that you have read and agree to all of the above terms.
 
