@@ -265,7 +265,7 @@ After installation, visit https://ServerIP:Port to access the web management pan
 
 | Metric | Value | Description |
 |:---|:---:|:---|
-| **Max Concurrent Connections** | 10,000+ | Single node, 4-core 8GB environment |
+| **Max Concurrent Connections** | 10,000+ | Single node, 2-core 4GB environment |
 | **Forwarding Latency** | < 3 ms | P99 latency on intranet |
 | **Memory Footprint** | ~ 100 MB / 1k connections | Extremely low memory overhead |
 | **CPU Usage** | < 5% @ 1k connections | Asynchronous non-blocking architecture |
