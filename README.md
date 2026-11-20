@@ -9,7 +9,7 @@
 <h4 align="center"> MinerProxy </h4>
 
 <p>
-    <img src="https://img.shields.io/badge/Version-V3.0.0-8B5CF6?logo=semver&logoColor=white" alt="Version">
+    <img src="https://img.shields.io/badge/Version-Stable-8B5CF6?logo=semver&logoColor=white" alt="Version">
   <a href="https://t.me/SocatMiner">
     <img src="https://img.shields.io/badge/Telegram-SocatMiner-2CA5E0?logo=telegram&logoColor=white" alt="Telegram">
   </a>
@@ -60,7 +60,7 @@
 | 特性 | 说明 |
 |:---:|:---|
 | 🎯 **矿池代理转发** | 支持多种主流挖矿算法，稳定对接全球各大矿池 |
-| ⚡ **矿池节点转发** | 一键部署 Stratum 节点，支持自定义费率、算力拆分与多级账户体系 |
+| ⚡ **矿池节点管理** | 一键部署 Stratum 节点，支持自定义费率、算力拆分与多级账户体系 |
 | 🔐 **安全传输隧道** | 私有加密协议多重保护，配合本地安全客户端实现数据压缩与链路加密 |
 | 📊 **实时监控仪表** | Web 管理后台提供算力趋势、在线状态、收益统计等多维度可视化仪表盘 |
 | 🌐 **平台部署** | Linux  x86架构支持，一键部署 |
